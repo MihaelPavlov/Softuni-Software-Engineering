@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\For-Loop Lekcii\08.Lili\bin\Debug\08.Lili.exe.config
+C:\Users\USER\source\repos\For-Loop Lekcii\08.Lili\bin\Debug\08.Lili.exe
+C:\Users\USER\source\repos\For-Loop Lekcii\08.Lili\bin\Debug\08.Lili.pdb
+C:\Users\USER\source\repos\For-Loop Lekcii\08.Lili\obj\Debug\08.Lili.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\For-Loop Lekcii\08.Lili\obj\Debug\08.Lili.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\For-Loop Lekcii\08.Lili\obj\Debug\08.Lili.exe
+C:\Users\USER\source\repos\For-Loop Lekcii\08.Lili\obj\Debug\08.Lili.pdb

@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\whileLoop Exsercise\whileLoop Exsercise\bin\Debug\whileLoop Exsercise.exe.config
+C:\Users\USER\source\repos\whileLoop Exsercise\whileLoop Exsercise\bin\Debug\whileLoop Exsercise.exe
+C:\Users\USER\source\repos\whileLoop Exsercise\whileLoop Exsercise\bin\Debug\whileLoop Exsercise.pdb
+C:\Users\USER\source\repos\whileLoop Exsercise\whileLoop Exsercise\obj\Debug\whileLoop Exsercise.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\whileLoop Exsercise\whileLoop Exsercise\obj\Debug\whileLoop Exsercise.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\whileLoop Exsercise\whileLoop Exsercise\obj\Debug\whileLoop Exsercise.exe
+C:\Users\USER\source\repos\whileLoop Exsercise\whileLoop Exsercise\obj\Debug\whileLoop Exsercise.pdb

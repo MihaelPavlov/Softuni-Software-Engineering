@@ -1,0 +1,6 @@
+C:\Users\USER\source\repos\Basic\Tailoring Workshop\bin\Debug\Tailoring Workshop.exe.config
+C:\Users\USER\source\repos\Basic\Tailoring Workshop\bin\Debug\Tailoring Workshop.exe
+C:\Users\USER\source\repos\Basic\Tailoring Workshop\bin\Debug\Tailoring Workshop.pdb
+C:\Users\USER\source\repos\Basic\Tailoring Workshop\obj\Debug\Tailoring Workshop.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Basic\Tailoring Workshop\obj\Debug\Tailoring Workshop.exe
+C:\Users\USER\source\repos\Basic\Tailoring Workshop\obj\Debug\Tailoring Workshop.pdb

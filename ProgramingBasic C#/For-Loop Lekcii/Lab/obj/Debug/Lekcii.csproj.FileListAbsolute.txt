@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\For-Loop Lekcii\Lekcii\bin\Debug\Lekcii.exe.config
+C:\Users\USER\source\repos\For-Loop Lekcii\Lekcii\bin\Debug\Lekcii.exe
+C:\Users\USER\source\repos\For-Loop Lekcii\Lekcii\bin\Debug\Lekcii.pdb
+C:\Users\USER\source\repos\For-Loop Lekcii\Lekcii\obj\Debug\Lekcii.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\For-Loop Lekcii\Lekcii\obj\Debug\Lekcii.exe
+C:\Users\USER\source\repos\For-Loop Lekcii\Lekcii\obj\Debug\Lekcii.pdb
+C:\Users\USER\source\repos\For-Loop Lekcii\Lekcii\obj\Debug\Lekcii.csprojAssemblyReference.cache

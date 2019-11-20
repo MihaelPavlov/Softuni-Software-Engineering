@@ -1,0 +1,6 @@
+C:\Users\USER\source\repos\combination\Building\bin\Debug\Building.exe.config
+C:\Users\USER\source\repos\combination\Building\bin\Debug\Building.exe
+C:\Users\USER\source\repos\combination\Building\bin\Debug\Building.pdb
+C:\Users\USER\source\repos\combination\Building\obj\Debug\Building.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\combination\Building\obj\Debug\Building.exe
+C:\Users\USER\source\repos\combination\Building\obj\Debug\Building.pdb

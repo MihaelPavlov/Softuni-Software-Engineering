@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\More Exsersice -data types\game\bin\Debug\game.exe.config
+C:\Users\USER\source\repos\More Exsersice -data types\game\bin\Debug\game.exe
+C:\Users\USER\source\repos\More Exsersice -data types\game\bin\Debug\game.pdb
+C:\Users\USER\source\repos\More Exsersice -data types\game\obj\Debug\game.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\More Exsersice -data types\game\obj\Debug\game.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\More Exsersice -data types\game\obj\Debug\game.exe
+C:\Users\USER\source\repos\More Exsersice -data types\game\obj\Debug\game.pdb

@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\Training.01\04. Puppy Care\bin\Debug\_04.Puppy_Care.exe.config
+C:\Users\USER\source\repos\Training.01\04. Puppy Care\bin\Debug\_04.Puppy_Care.exe
+C:\Users\USER\source\repos\Training.01\04. Puppy Care\bin\Debug\_04.Puppy_Care.pdb
+C:\Users\USER\source\repos\Training.01\04. Puppy Care\obj\Debug\04. Puppy Care.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Training.01\04. Puppy Care\obj\Debug\04. Puppy Care.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Training.01\04. Puppy Care\obj\Debug\_04.Puppy_Care.exe
+C:\Users\USER\source\repos\Training.01\04. Puppy Care\obj\Debug\_04.Puppy_Care.pdb

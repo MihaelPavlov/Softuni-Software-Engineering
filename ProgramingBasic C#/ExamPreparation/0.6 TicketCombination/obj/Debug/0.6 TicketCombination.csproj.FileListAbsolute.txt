@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\ExamPreparation\0.6 TicketCombination\bin\Debug\0.6 TicketCombination.exe.config
+C:\Users\USER\source\repos\ExamPreparation\0.6 TicketCombination\bin\Debug\0.6 TicketCombination.exe
+C:\Users\USER\source\repos\ExamPreparation\0.6 TicketCombination\bin\Debug\0.6 TicketCombination.pdb
+C:\Users\USER\source\repos\ExamPreparation\0.6 TicketCombination\obj\Debug\0.6 TicketCombination.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\ExamPreparation\0.6 TicketCombination\obj\Debug\0.6 TicketCombination.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\ExamPreparation\0.6 TicketCombination\obj\Debug\0.6 TicketCombination.exe
+C:\Users\USER\source\repos\ExamPreparation\0.6 TicketCombination\obj\Debug\0.6 TicketCombination.pdb

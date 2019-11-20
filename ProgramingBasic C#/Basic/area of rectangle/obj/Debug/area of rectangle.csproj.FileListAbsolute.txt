@@ -1,0 +1,6 @@
+C:\Users\USER\source\repos\Basic\area of rectangle\bin\Debug\area of rectangle.exe.config
+C:\Users\USER\source\repos\Basic\area of rectangle\bin\Debug\area of rectangle.exe
+C:\Users\USER\source\repos\Basic\area of rectangle\bin\Debug\area of rectangle.pdb
+C:\Users\USER\source\repos\Basic\area of rectangle\obj\Debug\area of rectangle.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Basic\area of rectangle\obj\Debug\area of rectangle.exe
+C:\Users\USER\source\repos\Basic\area of rectangle\obj\Debug\area of rectangle.pdb

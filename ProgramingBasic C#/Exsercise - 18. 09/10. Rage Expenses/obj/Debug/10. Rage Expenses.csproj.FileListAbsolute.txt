@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\Exsercise - 18. 09\10. Rage Expenses\bin\Debug\_10.Rage_Expenses.exe.config
+C:\Users\USER\source\repos\Exsercise - 18. 09\10. Rage Expenses\bin\Debug\_10.Rage_Expenses.exe
+C:\Users\USER\source\repos\Exsercise - 18. 09\10. Rage Expenses\bin\Debug\_10.Rage_Expenses.pdb
+C:\Users\USER\source\repos\Exsercise - 18. 09\10. Rage Expenses\obj\Debug\10. Rage Expenses.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Exsercise - 18. 09\10. Rage Expenses\obj\Debug\10. Rage Expenses.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Exsercise - 18. 09\10. Rage Expenses\obj\Debug\_10.Rage_Expenses.exe
+C:\Users\USER\source\repos\Exsercise - 18. 09\10. Rage Expenses\obj\Debug\_10.Rage_Expenses.pdb

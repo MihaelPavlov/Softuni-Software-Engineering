@@ -1,0 +1,6 @@
+C:\Users\USER\source\repos\Basic\Alchoholic Borc\bin\Debug\Alchoholic Borc.exe.config
+C:\Users\USER\source\repos\Basic\Alchoholic Borc\bin\Debug\Alchoholic Borc.exe
+C:\Users\USER\source\repos\Basic\Alchoholic Borc\bin\Debug\Alchoholic Borc.pdb
+C:\Users\USER\source\repos\Basic\Alchoholic Borc\obj\Debug\Alchoholic Borc.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Basic\Alchoholic Borc\obj\Debug\Alchoholic Borc.exe
+C:\Users\USER\source\repos\Basic\Alchoholic Borc\obj\Debug\Alchoholic Borc.pdb

@@ -1,0 +1,6 @@
+c:\users\user\source\repos\ConsoleApp1\01. Old Books\bin\Debug\_01.Old_Books.exe.config
+c:\users\user\source\repos\ConsoleApp1\01. Old Books\bin\Debug\_01.Old_Books.exe
+c:\users\user\source\repos\ConsoleApp1\01. Old Books\bin\Debug\_01.Old_Books.pdb
+c:\users\user\source\repos\ConsoleApp1\01. Old Books\obj\Debug\01. Old Books.csproj.CoreCompileInputs.cache
+c:\users\user\source\repos\ConsoleApp1\01. Old Books\obj\Debug\_01.Old_Books.exe
+c:\users\user\source\repos\ConsoleApp1\01. Old Books\obj\Debug\_01.Old_Books.pdb

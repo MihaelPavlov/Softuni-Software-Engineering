@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\Training.01\ComputerRoom\bin\Debug\ComputerRoom.exe.config
+C:\Users\USER\source\repos\Training.01\ComputerRoom\bin\Debug\ComputerRoom.exe
+C:\Users\USER\source\repos\Training.01\ComputerRoom\bin\Debug\ComputerRoom.pdb
+C:\Users\USER\source\repos\Training.01\ComputerRoom\obj\Debug\ComputerRoom.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Training.01\ComputerRoom\obj\Debug\ComputerRoom.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Training.01\ComputerRoom\obj\Debug\ComputerRoom.exe
+C:\Users\USER\source\repos\Training.01\ComputerRoom\obj\Debug\ComputerRoom.pdb

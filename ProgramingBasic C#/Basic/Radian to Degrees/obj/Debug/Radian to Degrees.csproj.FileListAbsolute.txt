@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\Basic\Radian to Degrees\bin\Debug\Radian to Degrees.exe.config
+C:\Users\USER\source\repos\Basic\Radian to Degrees\bin\Debug\Radian to Degrees.exe
+C:\Users\USER\source\repos\Basic\Radian to Degrees\bin\Debug\Radian to Degrees.pdb
+C:\Users\USER\source\repos\Basic\Radian to Degrees\obj\Debug\Radian to Degrees.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Basic\Radian to Degrees\obj\Debug\Radian to Degrees.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Basic\Radian to Degrees\obj\Debug\Radian to Degrees.exe
+C:\Users\USER\source\repos\Basic\Radian to Degrees\obj\Debug\Radian to Degrees.pdb

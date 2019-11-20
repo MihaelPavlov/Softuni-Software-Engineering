@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\Упражнения -29.05\Упражнения -29.05\bin\Debug\Упражнения -29.05.exe.config
+C:\Users\USER\source\repos\Упражнения -29.05\Упражнения -29.05\bin\Debug\Упражнения -29.05.exe
+C:\Users\USER\source\repos\Упражнения -29.05\Упражнения -29.05\bin\Debug\Упражнения -29.05.pdb
+C:\Users\USER\source\repos\Упражнения -29.05\Упражнения -29.05\obj\Debug\Упражнения -29.05.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Упражнения -29.05\Упражнения -29.05\obj\Debug\Упражнения -29.05.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Упражнения -29.05\Упражнения -29.05\obj\Debug\Упражнения -29.05.exe
+C:\Users\USER\source\repos\Упражнения -29.05\Упражнения -29.05\obj\Debug\Упражнения -29.05.pdb

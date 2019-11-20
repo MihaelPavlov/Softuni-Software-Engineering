@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\Training.01\Training.01\bin\Debug\Training.01.exe.config
+C:\Users\USER\source\repos\Training.01\Training.01\bin\Debug\Training.01.exe
+C:\Users\USER\source\repos\Training.01\Training.01\bin\Debug\Training.01.pdb
+C:\Users\USER\source\repos\Training.01\Training.01\obj\Debug\Training.01.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Training.01\Training.01\obj\Debug\Training.01.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Training.01\Training.01\obj\Debug\Training.01.exe
+C:\Users\USER\source\repos\Training.01\Training.01\obj\Debug\Training.01.pdb
