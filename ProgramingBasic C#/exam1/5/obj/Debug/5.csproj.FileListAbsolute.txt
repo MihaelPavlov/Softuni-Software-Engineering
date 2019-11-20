@@ -1,6 +1,0 @@
-C:\Users\USER\source\repos\exam1\5\obj\Debug\5.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\exam1\5\bin\Debug\5.exe.config
-C:\Users\USER\source\repos\exam1\5\bin\Debug\5.exe
-C:\Users\USER\source\repos\exam1\5\bin\Debug\5.pdb
-C:\Users\USER\source\repos\exam1\5\obj\Debug\5.exe
-C:\Users\USER\source\repos\exam1\5\obj\Debug\5.pdb
