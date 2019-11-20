@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\Exsercise - 18. 09\04.Print and Sum\bin\Debug\04.Print and Sum.exe.config
-C:\Users\USER\source\repos\Exsercise - 18. 09\04.Print and Sum\bin\Debug\04.Print and Sum.exe
-C:\Users\USER\source\repos\Exsercise - 18. 09\04.Print and Sum\bin\Debug\04.Print and Sum.pdb
-C:\Users\USER\source\repos\Exsercise - 18. 09\04.Print and Sum\obj\Debug\04.Print and Sum.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\Exsercise - 18. 09\04.Print and Sum\obj\Debug\04.Print and Sum.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\Exsercise - 18. 09\04.Print and Sum\obj\Debug\04.Print and Sum.exe
-C:\Users\USER\source\repos\Exsercise - 18. 09\04.Print and Sum\obj\Debug\04.Print and Sum.pdb
