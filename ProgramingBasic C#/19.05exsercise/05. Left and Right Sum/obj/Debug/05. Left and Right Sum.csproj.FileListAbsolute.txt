@@ -1,0 +1,6 @@
+C:\Users\USER\source\repos\19.05Exsercise\05. Left and Right Sum\bin\Debug\_05.Left_and_Right_Sum.exe.config
+C:\Users\USER\source\repos\19.05Exsercise\05. Left and Right Sum\bin\Debug\_05.Left_and_Right_Sum.exe
+C:\Users\USER\source\repos\19.05Exsercise\05. Left and Right Sum\bin\Debug\_05.Left_and_Right_Sum.pdb
+C:\Users\USER\source\repos\19.05Exsercise\05. Left and Right Sum\obj\Debug\05. Left and Right Sum.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\19.05Exsercise\05. Left and Right Sum\obj\Debug\_05.Left_and_Right_Sum.exe
+C:\Users\USER\source\repos\19.05Exsercise\05. Left and Right Sum\obj\Debug\_05.Left_and_Right_Sum.pdb

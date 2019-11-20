@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\19.05Exsercise\07. Vowels Sum\bin\Debug\_07.Vowels_Sum.exe.config
+C:\Users\USER\source\repos\19.05Exsercise\07. Vowels Sum\bin\Debug\_07.Vowels_Sum.exe
+C:\Users\USER\source\repos\19.05Exsercise\07. Vowels Sum\bin\Debug\_07.Vowels_Sum.pdb
+C:\Users\USER\source\repos\19.05Exsercise\07. Vowels Sum\obj\Debug\07. Vowels Sum.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\19.05Exsercise\07. Vowels Sum\obj\Debug\07. Vowels Sum.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\19.05Exsercise\07. Vowels Sum\obj\Debug\_07.Vowels_Sum.exe
+C:\Users\USER\source\repos\19.05Exsercise\07. Vowels Sum\obj\Debug\_07.Vowels_Sum.pdb

@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\19.05Exsercise\06. Divide without remainder\bin\Debug\_06.Divide_without_remainder.exe.config
+C:\Users\USER\source\repos\19.05Exsercise\06. Divide without remainder\bin\Debug\_06.Divide_without_remainder.exe
+C:\Users\USER\source\repos\19.05Exsercise\06. Divide without remainder\bin\Debug\_06.Divide_without_remainder.pdb
+C:\Users\USER\source\repos\19.05Exsercise\06. Divide without remainder\obj\Debug\06. Divide without remainder.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\19.05Exsercise\06. Divide without remainder\obj\Debug\06. Divide without remainder.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\19.05Exsercise\06. Divide without remainder\obj\Debug\_06.Divide_without_remainder.exe
+C:\Users\USER\source\repos\19.05Exsercise\06. Divide without remainder\obj\Debug\_06.Divide_without_remainder.pdb

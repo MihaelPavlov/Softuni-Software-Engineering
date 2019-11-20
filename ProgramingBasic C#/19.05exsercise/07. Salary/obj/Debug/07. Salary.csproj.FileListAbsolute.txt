@@ -1,0 +1,6 @@
+C:\Users\USER\source\repos\19.05Exsercise\07. Salary\bin\Debug\_07.Salary.exe.config
+C:\Users\USER\source\repos\19.05Exsercise\07. Salary\bin\Debug\_07.Salary.exe
+C:\Users\USER\source\repos\19.05Exsercise\07. Salary\bin\Debug\_07.Salary.pdb
+C:\Users\USER\source\repos\19.05Exsercise\07. Salary\obj\Debug\07. Salary.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\19.05Exsercise\07. Salary\obj\Debug\_07.Salary.exe
+C:\Users\USER\source\repos\19.05Exsercise\07. Salary\obj\Debug\_07.Salary.pdb

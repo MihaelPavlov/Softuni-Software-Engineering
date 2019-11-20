@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\19.05Exsercise\04. Equal Pairs\bin\Debug\_04.Equal_Pairs.exe.config
+C:\Users\USER\source\repos\19.05Exsercise\04. Equal Pairs\bin\Debug\_04.Equal_Pairs.exe
+C:\Users\USER\source\repos\19.05Exsercise\04. Equal Pairs\bin\Debug\_04.Equal_Pairs.pdb
+C:\Users\USER\source\repos\19.05Exsercise\04. Equal Pairs\obj\Debug\04. Equal Pairs.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\19.05Exsercise\04. Equal Pairs\obj\Debug\04. Equal Pairs.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\19.05Exsercise\04. Equal Pairs\obj\Debug\_04.Equal_Pairs.exe
+C:\Users\USER\source\repos\19.05Exsercise\04. Equal Pairs\obj\Debug\_04.Equal_Pairs.pdb

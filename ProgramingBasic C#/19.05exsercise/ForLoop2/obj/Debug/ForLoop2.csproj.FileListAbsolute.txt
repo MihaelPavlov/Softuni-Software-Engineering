@@ -1,0 +1,6 @@
+C:\Users\USER\source\repos\19.05Exsercise\ForLoop2\bin\Debug\ForLoop2.exe.config
+C:\Users\USER\source\repos\19.05Exsercise\ForLoop2\bin\Debug\ForLoop2.exe
+C:\Users\USER\source\repos\19.05Exsercise\ForLoop2\bin\Debug\ForLoop2.pdb
+C:\Users\USER\source\repos\19.05Exsercise\ForLoop2\obj\Debug\ForLoop2.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\19.05Exsercise\ForLoop2\obj\Debug\ForLoop2.exe
+C:\Users\USER\source\repos\19.05Exsercise\ForLoop2\obj\Debug\ForLoop2.pdb
