@@ -1,2 +1,2 @@
-# Programming-Basics
-Programming-Basic Course (Softuni)
+# Softuni-Software-Engineering
+Programming-Basic C#
