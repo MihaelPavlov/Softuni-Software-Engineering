@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\Exsercise - 18. 09\03. Vacation\bin\Debug\_03.Vacation.exe.config
-C:\Users\USER\source\repos\Exsercise - 18. 09\03. Vacation\bin\Debug\_03.Vacation.exe
-C:\Users\USER\source\repos\Exsercise - 18. 09\03. Vacation\bin\Debug\_03.Vacation.pdb
-C:\Users\USER\source\repos\Exsercise - 18. 09\03. Vacation\obj\Debug\03. Vacation.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\Exsercise - 18. 09\03. Vacation\obj\Debug\03. Vacation.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\Exsercise - 18. 09\03. Vacation\obj\Debug\_03.Vacation.exe
-C:\Users\USER\source\repos\Exsercise - 18. 09\03. Vacation\obj\Debug\_03.Vacation.pdb
