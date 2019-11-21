@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\Exsercise - 18. 09\Exsercise - 18. 09\bin\Debug\Exsercise - 18. 09.exe.config
+C:\Users\USER\source\repos\Exsercise - 18. 09\Exsercise - 18. 09\bin\Debug\Exsercise - 18. 09.exe
+C:\Users\USER\source\repos\Exsercise - 18. 09\Exsercise - 18. 09\bin\Debug\Exsercise - 18. 09.pdb
+C:\Users\USER\source\repos\Exsercise - 18. 09\Exsercise - 18. 09\obj\Debug\Exsercise - 18. 09.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Exsercise - 18. 09\Exsercise - 18. 09\obj\Debug\Exsercise - 18. 09.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Exsercise - 18. 09\Exsercise - 18. 09\obj\Debug\Exsercise - 18. 09.exe
+C:\Users\USER\source\repos\Exsercise - 18. 09\Exsercise - 18. 09\obj\Debug\Exsercise - 18. 09.pdb

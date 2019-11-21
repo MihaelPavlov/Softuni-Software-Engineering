@@ -1,0 +1,6 @@
+C:\Users\USER\source\repos\Exsercise - 18. 09\09 . Padawan Equipment\bin\Debug\_09.Padawan_Equipment.exe.config
+C:\Users\USER\source\repos\Exsercise - 18. 09\09 . Padawan Equipment\bin\Debug\_09.Padawan_Equipment.exe
+C:\Users\USER\source\repos\Exsercise - 18. 09\09 . Padawan Equipment\bin\Debug\_09.Padawan_Equipment.pdb
+C:\Users\USER\source\repos\Exsercise - 18. 09\09 . Padawan Equipment\obj\Debug\09 . Padawan Equipment.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Exsercise - 18. 09\09 . Padawan Equipment\obj\Debug\_09.Padawan_Equipment.exe
+C:\Users\USER\source\repos\Exsercise - 18. 09\09 . Padawan Equipment\obj\Debug\_09.Padawan_Equipment.pdb

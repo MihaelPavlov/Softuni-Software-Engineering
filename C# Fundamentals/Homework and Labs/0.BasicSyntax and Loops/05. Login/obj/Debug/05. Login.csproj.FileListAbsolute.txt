@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\Exsercise - 18. 09\05. Login\bin\Debug\_05.Login.exe.config
+C:\Users\USER\source\repos\Exsercise - 18. 09\05. Login\bin\Debug\_05.Login.exe
+C:\Users\USER\source\repos\Exsercise - 18. 09\05. Login\bin\Debug\_05.Login.pdb
+C:\Users\USER\source\repos\Exsercise - 18. 09\05. Login\obj\Debug\05. Login.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Exsercise - 18. 09\05. Login\obj\Debug\05. Login.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Exsercise - 18. 09\05. Login\obj\Debug\_05.Login.exe
+C:\Users\USER\source\repos\Exsercise - 18. 09\05. Login\obj\Debug\_05.Login.pdb
