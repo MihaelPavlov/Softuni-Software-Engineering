@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\MidExamPreparation\02. Dungeonest Dark\obj\Debug\netcoreapp3.0\02. Dungeonest Dark.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\MidExamPreparation\02. Dungeonest Dark\obj\Debug\netcoreapp3.0\02. Dungeonest Dark.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\MidExamPreparation\02. Dungeonest Dark\obj\Debug\netcoreapp3.0\02. Dungeonest Dark.AssemblyInfo.cs
+C:\Users\USER\source\repos\MidExamPreparation\02. Dungeonest Dark\bin\Debug\netcoreapp3.0\02. Dungeonest Dark.exe
+C:\Users\USER\source\repos\MidExamPreparation\02. Dungeonest Dark\bin\Debug\netcoreapp3.0\02. Dungeonest Dark.deps.json
+C:\Users\USER\source\repos\MidExamPreparation\02. Dungeonest Dark\bin\Debug\netcoreapp3.0\02. Dungeonest Dark.runtimeconfig.json
+C:\Users\USER\source\repos\MidExamPreparation\02. Dungeonest Dark\bin\Debug\netcoreapp3.0\02. Dungeonest Dark.runtimeconfig.dev.json
+C:\Users\USER\source\repos\MidExamPreparation\02. Dungeonest Dark\bin\Debug\netcoreapp3.0\02. Dungeonest Dark.dll
+C:\Users\USER\source\repos\MidExamPreparation\02. Dungeonest Dark\bin\Debug\netcoreapp3.0\02. Dungeonest Dark.pdb
+C:\Users\USER\source\repos\MidExamPreparation\02. Dungeonest Dark\obj\Debug\netcoreapp3.0\02. Dungeonest Dark.dll
+C:\Users\USER\source\repos\MidExamPreparation\02. Dungeonest Dark\obj\Debug\netcoreapp3.0\02. Dungeonest Dark.pdb

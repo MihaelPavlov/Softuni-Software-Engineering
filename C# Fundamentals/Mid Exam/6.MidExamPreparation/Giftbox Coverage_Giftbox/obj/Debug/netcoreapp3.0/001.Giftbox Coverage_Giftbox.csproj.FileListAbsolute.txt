@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\MidExamPreparation\Giftbox Coverage_Giftbox\obj\Debug\netcoreapp3.0\001.Giftbox Coverage_Giftbox.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\MidExamPreparation\Giftbox Coverage_Giftbox\obj\Debug\netcoreapp3.0\001.Giftbox Coverage_Giftbox.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\MidExamPreparation\Giftbox Coverage_Giftbox\obj\Debug\netcoreapp3.0\001.Giftbox Coverage_Giftbox.AssemblyInfo.cs
+C:\Users\USER\source\repos\MidExamPreparation\Giftbox Coverage_Giftbox\bin\Debug\netcoreapp3.0\001.Giftbox Coverage_Giftbox.exe
+C:\Users\USER\source\repos\MidExamPreparation\Giftbox Coverage_Giftbox\bin\Debug\netcoreapp3.0\001.Giftbox Coverage_Giftbox.deps.json
+C:\Users\USER\source\repos\MidExamPreparation\Giftbox Coverage_Giftbox\bin\Debug\netcoreapp3.0\001.Giftbox Coverage_Giftbox.runtimeconfig.json
+C:\Users\USER\source\repos\MidExamPreparation\Giftbox Coverage_Giftbox\bin\Debug\netcoreapp3.0\001.Giftbox Coverage_Giftbox.runtimeconfig.dev.json
+C:\Users\USER\source\repos\MidExamPreparation\Giftbox Coverage_Giftbox\bin\Debug\netcoreapp3.0\001.Giftbox Coverage_Giftbox.dll
+C:\Users\USER\source\repos\MidExamPreparation\Giftbox Coverage_Giftbox\bin\Debug\netcoreapp3.0\001.Giftbox Coverage_Giftbox.pdb
+C:\Users\USER\source\repos\MidExamPreparation\Giftbox Coverage_Giftbox\obj\Debug\netcoreapp3.0\001.Giftbox Coverage_Giftbox.dll
+C:\Users\USER\source\repos\MidExamPreparation\Giftbox Coverage_Giftbox\obj\Debug\netcoreapp3.0\001.Giftbox Coverage_Giftbox.pdb

@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\MidExamPreparation\03. Quests Journal\bin\Debug\netcoreapp3.0\03. Quests Journal.exe
+C:\Users\USER\source\repos\MidExamPreparation\03. Quests Journal\bin\Debug\netcoreapp3.0\03. Quests Journal.deps.json
+C:\Users\USER\source\repos\MidExamPreparation\03. Quests Journal\bin\Debug\netcoreapp3.0\03. Quests Journal.runtimeconfig.json
+C:\Users\USER\source\repos\MidExamPreparation\03. Quests Journal\bin\Debug\netcoreapp3.0\03. Quests Journal.runtimeconfig.dev.json
+C:\Users\USER\source\repos\MidExamPreparation\03. Quests Journal\bin\Debug\netcoreapp3.0\03. Quests Journal.dll
+C:\Users\USER\source\repos\MidExamPreparation\03. Quests Journal\bin\Debug\netcoreapp3.0\03. Quests Journal.pdb
+C:\Users\USER\source\repos\MidExamPreparation\03. Quests Journal\obj\Debug\netcoreapp3.0\03. Quests Journal.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\MidExamPreparation\03. Quests Journal\obj\Debug\netcoreapp3.0\03. Quests Journal.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\MidExamPreparation\03. Quests Journal\obj\Debug\netcoreapp3.0\03. Quests Journal.AssemblyInfo.cs
+C:\Users\USER\source\repos\MidExamPreparation\03. Quests Journal\obj\Debug\netcoreapp3.0\03. Quests Journal.dll
+C:\Users\USER\source\repos\MidExamPreparation\03. Quests Journal\obj\Debug\netcoreapp3.0\03. Quests Journal.pdb

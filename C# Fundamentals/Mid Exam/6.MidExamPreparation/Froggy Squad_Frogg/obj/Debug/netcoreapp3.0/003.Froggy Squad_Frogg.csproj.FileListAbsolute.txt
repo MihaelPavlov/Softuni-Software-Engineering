@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\MidExamPreparation\Froggy Squad_Frogg\bin\Debug\netcoreapp3.0\003.Froggy Squad_Frogg.exe
+C:\Users\USER\source\repos\MidExamPreparation\Froggy Squad_Frogg\bin\Debug\netcoreapp3.0\003.Froggy Squad_Frogg.deps.json
+C:\Users\USER\source\repos\MidExamPreparation\Froggy Squad_Frogg\bin\Debug\netcoreapp3.0\003.Froggy Squad_Frogg.runtimeconfig.json
+C:\Users\USER\source\repos\MidExamPreparation\Froggy Squad_Frogg\bin\Debug\netcoreapp3.0\003.Froggy Squad_Frogg.runtimeconfig.dev.json
+C:\Users\USER\source\repos\MidExamPreparation\Froggy Squad_Frogg\bin\Debug\netcoreapp3.0\003.Froggy Squad_Frogg.dll
+C:\Users\USER\source\repos\MidExamPreparation\Froggy Squad_Frogg\bin\Debug\netcoreapp3.0\003.Froggy Squad_Frogg.pdb
+C:\Users\USER\source\repos\MidExamPreparation\Froggy Squad_Frogg\obj\Debug\netcoreapp3.0\003.Froggy Squad_Frogg.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\MidExamPreparation\Froggy Squad_Frogg\obj\Debug\netcoreapp3.0\003.Froggy Squad_Frogg.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\MidExamPreparation\Froggy Squad_Frogg\obj\Debug\netcoreapp3.0\003.Froggy Squad_Frogg.AssemblyInfo.cs
+C:\Users\USER\source\repos\MidExamPreparation\Froggy Squad_Frogg\obj\Debug\netcoreapp3.0\003.Froggy Squad_Frogg.dll
+C:\Users\USER\source\repos\MidExamPreparation\Froggy Squad_Frogg\obj\Debug\netcoreapp3.0\003.Froggy Squad_Frogg.pdb

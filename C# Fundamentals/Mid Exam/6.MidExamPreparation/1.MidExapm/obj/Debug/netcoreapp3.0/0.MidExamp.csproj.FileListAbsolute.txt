@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\MidExamPreparation\1.MidExapm\bin\Debug\netcoreapp3.0\0.MidExamp.exe
+C:\Users\USER\source\repos\MidExamPreparation\1.MidExapm\bin\Debug\netcoreapp3.0\0.MidExamp.deps.json
+C:\Users\USER\source\repos\MidExamPreparation\1.MidExapm\bin\Debug\netcoreapp3.0\0.MidExamp.runtimeconfig.json
+C:\Users\USER\source\repos\MidExamPreparation\1.MidExapm\bin\Debug\netcoreapp3.0\0.MidExamp.runtimeconfig.dev.json
+C:\Users\USER\source\repos\MidExamPreparation\1.MidExapm\bin\Debug\netcoreapp3.0\0.MidExamp.dll
+C:\Users\USER\source\repos\MidExamPreparation\1.MidExapm\bin\Debug\netcoreapp3.0\0.MidExamp.pdb
+C:\Users\USER\source\repos\MidExamPreparation\1.MidExapm\obj\Debug\netcoreapp3.0\0.MidExamp.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\MidExamPreparation\1.MidExapm\obj\Debug\netcoreapp3.0\0.MidExamp.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\MidExamPreparation\1.MidExapm\obj\Debug\netcoreapp3.0\0.MidExamp.AssemblyInfo.cs
+C:\Users\USER\source\repos\MidExamPreparation\1.MidExapm\obj\Debug\netcoreapp3.0\0.MidExamp.dll
+C:\Users\USER\source\repos\MidExamPreparation\1.MidExapm\obj\Debug\netcoreapp3.0\0.MidExamp.pdb
