@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\27.09.2019 Exsercise\1\bin\Debug\1.exe.config
+C:\Users\USER\source\repos\27.09.2019 Exsercise\1\bin\Debug\1.exe
+C:\Users\USER\source\repos\27.09.2019 Exsercise\1\bin\Debug\1.pdb
+C:\Users\USER\source\repos\27.09.2019 Exsercise\1\obj\Debug\1.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\27.09.2019 Exsercise\1\obj\Debug\1.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\27.09.2019 Exsercise\1\obj\Debug\1.exe
+C:\Users\USER\source\repos\27.09.2019 Exsercise\1\obj\Debug\1.pdb

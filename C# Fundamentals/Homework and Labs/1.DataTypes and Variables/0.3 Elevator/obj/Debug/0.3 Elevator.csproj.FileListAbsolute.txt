@@ -1,0 +1,6 @@
+C:\Users\USER\source\repos\27.09.2019 Exsercise\0.3 Elevator\bin\Debug\0.3 Elevator.exe.config
+C:\Users\USER\source\repos\27.09.2019 Exsercise\0.3 Elevator\bin\Debug\0.3 Elevator.exe
+C:\Users\USER\source\repos\27.09.2019 Exsercise\0.3 Elevator\bin\Debug\0.3 Elevator.pdb
+C:\Users\USER\source\repos\27.09.2019 Exsercise\0.3 Elevator\obj\Debug\0.3 Elevator.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\27.09.2019 Exsercise\0.3 Elevator\obj\Debug\0.3 Elevator.exe
+C:\Users\USER\source\repos\27.09.2019 Exsercise\0.3 Elevator\obj\Debug\0.3 Elevator.pdb

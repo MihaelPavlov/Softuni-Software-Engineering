@@ -1,0 +1,2 @@
+C:\Users\USER\source\repos\27.09.2019 Exsercise\27.09.2019 Exsercise\obj\Debug\27.09.2019 Exsercise.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\27.09.2019 Exsercise\27.09.2019 Exsercise\obj\Debug\27.09.2019 Exsercise.csproj.CoreCompileInputs.cache

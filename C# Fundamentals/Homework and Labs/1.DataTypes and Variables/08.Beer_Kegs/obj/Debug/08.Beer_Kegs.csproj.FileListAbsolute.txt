@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\27.09.2019 Exsercise\08.Beer_Kegs\bin\Debug\08.Beer_Kegs.exe.config
+C:\Users\USER\source\repos\27.09.2019 Exsercise\08.Beer_Kegs\bin\Debug\08.Beer_Kegs.exe
+C:\Users\USER\source\repos\27.09.2019 Exsercise\08.Beer_Kegs\bin\Debug\08.Beer_Kegs.pdb
+C:\Users\USER\source\repos\27.09.2019 Exsercise\08.Beer_Kegs\obj\Debug\08.Beer_Kegs.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\27.09.2019 Exsercise\08.Beer_Kegs\obj\Debug\08.Beer_Kegs.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\27.09.2019 Exsercise\08.Beer_Kegs\obj\Debug\08.Beer_Kegs.exe
+C:\Users\USER\source\repos\27.09.2019 Exsercise\08.Beer_Kegs\obj\Debug\08.Beer_Kegs.pdb
