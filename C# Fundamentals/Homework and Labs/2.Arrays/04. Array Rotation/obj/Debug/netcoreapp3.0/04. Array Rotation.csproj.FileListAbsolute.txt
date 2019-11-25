@@ -1,0 +1,10 @@
+C:\Users\USER\source\repos\Arrays\04. Array Rotation\bin\Debug\netcoreapp3.0\04. Array Rotation.exe
+C:\Users\USER\source\repos\Arrays\04. Array Rotation\bin\Debug\netcoreapp3.0\04. Array Rotation.deps.json
+C:\Users\USER\source\repos\Arrays\04. Array Rotation\bin\Debug\netcoreapp3.0\04. Array Rotation.runtimeconfig.json
+C:\Users\USER\source\repos\Arrays\04. Array Rotation\bin\Debug\netcoreapp3.0\04. Array Rotation.runtimeconfig.dev.json
+C:\Users\USER\source\repos\Arrays\04. Array Rotation\bin\Debug\netcoreapp3.0\04. Array Rotation.dll
+C:\Users\USER\source\repos\Arrays\04. Array Rotation\bin\Debug\netcoreapp3.0\04. Array Rotation.pdb
+C:\Users\USER\source\repos\Arrays\04. Array Rotation\obj\Debug\netcoreapp3.0\04. Array Rotation.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Arrays\04. Array Rotation\obj\Debug\netcoreapp3.0\04. Array Rotation.AssemblyInfo.cs
+C:\Users\USER\source\repos\Arrays\04. Array Rotation\obj\Debug\netcoreapp3.0\04. Array Rotation.dll
+C:\Users\USER\source\repos\Arrays\04. Array Rotation\obj\Debug\netcoreapp3.0\04. Array Rotation.pdb
