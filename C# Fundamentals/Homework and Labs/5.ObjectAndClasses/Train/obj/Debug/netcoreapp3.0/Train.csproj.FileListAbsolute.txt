@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\ObjectAndClasses\Train\obj\Debug\netcoreapp3.0\Train.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\ObjectAndClasses\Train\obj\Debug\netcoreapp3.0\Train.AssemblyInfo.cs
+C:\Users\USER\source\repos\ObjectAndClasses\Train\bin\Debug\netcoreapp3.0\Train.exe
+C:\Users\USER\source\repos\ObjectAndClasses\Train\bin\Debug\netcoreapp3.0\Train.deps.json
+C:\Users\USER\source\repos\ObjectAndClasses\Train\bin\Debug\netcoreapp3.0\Train.runtimeconfig.json
+C:\Users\USER\source\repos\ObjectAndClasses\Train\bin\Debug\netcoreapp3.0\Train.runtimeconfig.dev.json
+C:\Users\USER\source\repos\ObjectAndClasses\Train\bin\Debug\netcoreapp3.0\Train.dll
+C:\Users\USER\source\repos\ObjectAndClasses\Train\bin\Debug\netcoreapp3.0\Train.pdb
+C:\Users\USER\source\repos\ObjectAndClasses\Train\obj\Debug\netcoreapp3.0\Train.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\ObjectAndClasses\Train\obj\Debug\netcoreapp3.0\Train.dll
+C:\Users\USER\source\repos\ObjectAndClasses\Train\obj\Debug\netcoreapp3.0\Train.pdb

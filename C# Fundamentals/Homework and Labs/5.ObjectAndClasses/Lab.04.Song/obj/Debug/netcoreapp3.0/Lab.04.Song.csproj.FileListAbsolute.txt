@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\ObjectAndClasses\Lab.04.Song\bin\Debug\netcoreapp3.0\Lab.04.Song.exe
+C:\Users\USER\source\repos\ObjectAndClasses\Lab.04.Song\bin\Debug\netcoreapp3.0\Lab.04.Song.deps.json
+C:\Users\USER\source\repos\ObjectAndClasses\Lab.04.Song\bin\Debug\netcoreapp3.0\Lab.04.Song.runtimeconfig.json
+C:\Users\USER\source\repos\ObjectAndClasses\Lab.04.Song\bin\Debug\netcoreapp3.0\Lab.04.Song.runtimeconfig.dev.json
+C:\Users\USER\source\repos\ObjectAndClasses\Lab.04.Song\bin\Debug\netcoreapp3.0\Lab.04.Song.dll
+C:\Users\USER\source\repos\ObjectAndClasses\Lab.04.Song\bin\Debug\netcoreapp3.0\Lab.04.Song.pdb
+C:\Users\USER\source\repos\ObjectAndClasses\Lab.04.Song\obj\Debug\netcoreapp3.0\Lab.04.Song.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\ObjectAndClasses\Lab.04.Song\obj\Debug\netcoreapp3.0\Lab.04.Song.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\ObjectAndClasses\Lab.04.Song\obj\Debug\netcoreapp3.0\Lab.04.Song.AssemblyInfo.cs
+C:\Users\USER\source\repos\ObjectAndClasses\Lab.04.Song\obj\Debug\netcoreapp3.0\Lab.04.Song.dll
+C:\Users\USER\source\repos\ObjectAndClasses\Lab.04.Song\obj\Debug\netcoreapp3.0\Lab.04.Song.pdb
