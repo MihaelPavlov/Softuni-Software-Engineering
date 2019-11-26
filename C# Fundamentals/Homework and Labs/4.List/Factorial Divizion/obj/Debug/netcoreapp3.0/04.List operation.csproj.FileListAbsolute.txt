@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\Link\Factorial Divizion\bin\Debug\netcoreapp3.0\04.List operation.exe
+C:\Users\USER\source\repos\Link\Factorial Divizion\bin\Debug\netcoreapp3.0\04.List operation.deps.json
+C:\Users\USER\source\repos\Link\Factorial Divizion\bin\Debug\netcoreapp3.0\04.List operation.runtimeconfig.json
+C:\Users\USER\source\repos\Link\Factorial Divizion\bin\Debug\netcoreapp3.0\04.List operation.runtimeconfig.dev.json
+C:\Users\USER\source\repos\Link\Factorial Divizion\bin\Debug\netcoreapp3.0\04.List operation.dll
+C:\Users\USER\source\repos\Link\Factorial Divizion\bin\Debug\netcoreapp3.0\04.List operation.pdb
+C:\Users\USER\source\repos\Link\Factorial Divizion\obj\Debug\netcoreapp3.0\04.List operation.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Link\Factorial Divizion\obj\Debug\netcoreapp3.0\04.List operation.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Link\Factorial Divizion\obj\Debug\netcoreapp3.0\04.List operation.AssemblyInfo.cs
+C:\Users\USER\source\repos\Link\Factorial Divizion\obj\Debug\netcoreapp3.0\04.List operation.dll
+C:\Users\USER\source\repos\Link\Factorial Divizion\obj\Debug\netcoreapp3.0\04.List operation.pdb

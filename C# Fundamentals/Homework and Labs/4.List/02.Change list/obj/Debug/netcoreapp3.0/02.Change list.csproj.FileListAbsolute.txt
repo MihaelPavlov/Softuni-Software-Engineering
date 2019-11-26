@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\Link\02.Change list\bin\Debug\netcoreapp3.0\02.Change list.exe
+C:\Users\USER\source\repos\Link\02.Change list\bin\Debug\netcoreapp3.0\02.Change list.deps.json
+C:\Users\USER\source\repos\Link\02.Change list\bin\Debug\netcoreapp3.0\02.Change list.runtimeconfig.json
+C:\Users\USER\source\repos\Link\02.Change list\bin\Debug\netcoreapp3.0\02.Change list.runtimeconfig.dev.json
+C:\Users\USER\source\repos\Link\02.Change list\bin\Debug\netcoreapp3.0\02.Change list.dll
+C:\Users\USER\source\repos\Link\02.Change list\bin\Debug\netcoreapp3.0\02.Change list.pdb
+C:\Users\USER\source\repos\Link\02.Change list\obj\Debug\netcoreapp3.0\02.Change list.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Link\02.Change list\obj\Debug\netcoreapp3.0\02.Change list.AssemblyInfo.cs
+C:\Users\USER\source\repos\Link\02.Change list\obj\Debug\netcoreapp3.0\02.Change list.dll
+C:\Users\USER\source\repos\Link\02.Change list\obj\Debug\netcoreapp3.0\02.Change list.pdb
+C:\Users\USER\source\repos\Link\02.Change list\obj\Debug\netcoreapp3.0\02.Change list.csprojAssemblyReference.cache

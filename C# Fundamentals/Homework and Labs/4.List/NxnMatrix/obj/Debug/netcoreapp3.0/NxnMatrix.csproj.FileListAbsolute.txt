@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\Link\NxnMatrix\bin\Debug\netcoreapp3.0\NxnMatrix.exe
+C:\Users\USER\source\repos\Link\NxnMatrix\bin\Debug\netcoreapp3.0\NxnMatrix.deps.json
+C:\Users\USER\source\repos\Link\NxnMatrix\bin\Debug\netcoreapp3.0\NxnMatrix.runtimeconfig.json
+C:\Users\USER\source\repos\Link\NxnMatrix\bin\Debug\netcoreapp3.0\NxnMatrix.runtimeconfig.dev.json
+C:\Users\USER\source\repos\Link\NxnMatrix\bin\Debug\netcoreapp3.0\NxnMatrix.dll
+C:\Users\USER\source\repos\Link\NxnMatrix\bin\Debug\netcoreapp3.0\NxnMatrix.pdb
+C:\Users\USER\source\repos\Link\NxnMatrix\obj\Debug\netcoreapp3.0\NxnMatrix.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Link\NxnMatrix\obj\Debug\netcoreapp3.0\NxnMatrix.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Link\NxnMatrix\obj\Debug\netcoreapp3.0\NxnMatrix.AssemblyInfo.cs
+C:\Users\USER\source\repos\Link\NxnMatrix\obj\Debug\netcoreapp3.0\NxnMatrix.dll
+C:\Users\USER\source\repos\Link\NxnMatrix\obj\Debug\netcoreapp3.0\NxnMatrix.pdb

@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\Link\NxnMatrix\bin\Debug\netcoreapp3.0\05.Bomb numbers.exe
+C:\Users\USER\source\repos\Link\NxnMatrix\bin\Debug\netcoreapp3.0\05.Bomb numbers.deps.json
+C:\Users\USER\source\repos\Link\NxnMatrix\bin\Debug\netcoreapp3.0\05.Bomb numbers.runtimeconfig.json
+C:\Users\USER\source\repos\Link\NxnMatrix\bin\Debug\netcoreapp3.0\05.Bomb numbers.runtimeconfig.dev.json
+C:\Users\USER\source\repos\Link\NxnMatrix\bin\Debug\netcoreapp3.0\05.Bomb numbers.dll
+C:\Users\USER\source\repos\Link\NxnMatrix\bin\Debug\netcoreapp3.0\05.Bomb numbers.pdb
+C:\Users\USER\source\repos\Link\NxnMatrix\obj\Debug\netcoreapp3.0\05.Bomb numbers.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Link\NxnMatrix\obj\Debug\netcoreapp3.0\05.Bomb numbers.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Link\NxnMatrix\obj\Debug\netcoreapp3.0\05.Bomb numbers.AssemblyInfo.cs
+C:\Users\USER\source\repos\Link\NxnMatrix\obj\Debug\netcoreapp3.0\05.Bomb numbers.dll
+C:\Users\USER\source\repos\Link\NxnMatrix\obj\Debug\netcoreapp3.0\05.Bomb numbers.pdb
