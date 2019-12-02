@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\TextProcessing And RegularExpressions\05.MultiplyBigNumber\bin\Debug\netcoreapp3.0\05.MultiplyBigNumber.exe
+C:\Users\USER\source\repos\TextProcessing And RegularExpressions\05.MultiplyBigNumber\bin\Debug\netcoreapp3.0\05.MultiplyBigNumber.deps.json
+C:\Users\USER\source\repos\TextProcessing And RegularExpressions\05.MultiplyBigNumber\bin\Debug\netcoreapp3.0\05.MultiplyBigNumber.runtimeconfig.json
+C:\Users\USER\source\repos\TextProcessing And RegularExpressions\05.MultiplyBigNumber\bin\Debug\netcoreapp3.0\05.MultiplyBigNumber.runtimeconfig.dev.json
+C:\Users\USER\source\repos\TextProcessing And RegularExpressions\05.MultiplyBigNumber\bin\Debug\netcoreapp3.0\05.MultiplyBigNumber.dll
+C:\Users\USER\source\repos\TextProcessing And RegularExpressions\05.MultiplyBigNumber\bin\Debug\netcoreapp3.0\05.MultiplyBigNumber.pdb
+C:\Users\USER\source\repos\TextProcessing And RegularExpressions\05.MultiplyBigNumber\obj\Debug\netcoreapp3.0\05.MultiplyBigNumber.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\TextProcessing And RegularExpressions\05.MultiplyBigNumber\obj\Debug\netcoreapp3.0\05.MultiplyBigNumber.AssemblyInfo.cs
+C:\Users\USER\source\repos\TextProcessing And RegularExpressions\05.MultiplyBigNumber\obj\Debug\netcoreapp3.0\05.MultiplyBigNumber.dll
+C:\Users\USER\source\repos\TextProcessing And RegularExpressions\05.MultiplyBigNumber\obj\Debug\netcoreapp3.0\05.MultiplyBigNumber.pdb
+C:\Users\USER\source\repos\TextProcessing And RegularExpressions\05.MultiplyBigNumber\obj\Debug\netcoreapp3.0\05.MultiplyBigNumber.csprojAssemblyReference.cache

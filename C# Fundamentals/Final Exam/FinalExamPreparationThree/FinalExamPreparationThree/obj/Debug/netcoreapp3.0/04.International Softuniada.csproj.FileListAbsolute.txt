@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\FinalExamPreparationThree\FinalExamPreparationThree\bin\Debug\netcoreapp3.0\04.International Softuniada.exe
+C:\Users\USER\source\repos\FinalExamPreparationThree\FinalExamPreparationThree\bin\Debug\netcoreapp3.0\04.International Softuniada.deps.json
+C:\Users\USER\source\repos\FinalExamPreparationThree\FinalExamPreparationThree\bin\Debug\netcoreapp3.0\04.International Softuniada.runtimeconfig.json
+C:\Users\USER\source\repos\FinalExamPreparationThree\FinalExamPreparationThree\bin\Debug\netcoreapp3.0\04.International Softuniada.runtimeconfig.dev.json
+C:\Users\USER\source\repos\FinalExamPreparationThree\FinalExamPreparationThree\bin\Debug\netcoreapp3.0\04.International Softuniada.dll
+C:\Users\USER\source\repos\FinalExamPreparationThree\FinalExamPreparationThree\bin\Debug\netcoreapp3.0\04.International Softuniada.pdb
+C:\Users\USER\source\repos\FinalExamPreparationThree\FinalExamPreparationThree\obj\Debug\netcoreapp3.0\04.International Softuniada.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\FinalExamPreparationThree\FinalExamPreparationThree\obj\Debug\netcoreapp3.0\04.International Softuniada.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\FinalExamPreparationThree\FinalExamPreparationThree\obj\Debug\netcoreapp3.0\04.International Softuniada.AssemblyInfo.cs
+C:\Users\USER\source\repos\FinalExamPreparationThree\FinalExamPreparationThree\obj\Debug\netcoreapp3.0\04.International Softuniada.dll
+C:\Users\USER\source\repos\FinalExamPreparationThree\FinalExamPreparationThree\obj\Debug\netcoreapp3.0\04.International Softuniada.pdb

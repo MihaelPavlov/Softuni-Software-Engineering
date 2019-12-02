@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "06.ReplaceRepeatingChar/1.0.0": {
+        "runtime": {
+          "06.ReplaceRepeatingChar.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "06.ReplaceRepeatingChar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

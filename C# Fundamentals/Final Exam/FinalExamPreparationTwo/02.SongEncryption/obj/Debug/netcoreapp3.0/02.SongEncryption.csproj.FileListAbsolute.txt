@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\FinalExamPreparationTwo\02.SongEncryption\bin\Debug\netcoreapp3.0\02.SongEncryption.exe
+C:\Users\USER\source\repos\FinalExamPreparationTwo\02.SongEncryption\bin\Debug\netcoreapp3.0\02.SongEncryption.deps.json
+C:\Users\USER\source\repos\FinalExamPreparationTwo\02.SongEncryption\bin\Debug\netcoreapp3.0\02.SongEncryption.runtimeconfig.json
+C:\Users\USER\source\repos\FinalExamPreparationTwo\02.SongEncryption\bin\Debug\netcoreapp3.0\02.SongEncryption.runtimeconfig.dev.json
+C:\Users\USER\source\repos\FinalExamPreparationTwo\02.SongEncryption\bin\Debug\netcoreapp3.0\02.SongEncryption.dll
+C:\Users\USER\source\repos\FinalExamPreparationTwo\02.SongEncryption\bin\Debug\netcoreapp3.0\02.SongEncryption.pdb
+C:\Users\USER\source\repos\FinalExamPreparationTwo\02.SongEncryption\obj\Debug\netcoreapp3.0\02.SongEncryption.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\FinalExamPreparationTwo\02.SongEncryption\obj\Debug\netcoreapp3.0\02.SongEncryption.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\FinalExamPreparationTwo\02.SongEncryption\obj\Debug\netcoreapp3.0\02.SongEncryption.AssemblyInfo.cs
+C:\Users\USER\source\repos\FinalExamPreparationTwo\02.SongEncryption\obj\Debug\netcoreapp3.0\02.SongEncryption.dll
+C:\Users\USER\source\repos\FinalExamPreparationTwo\02.SongEncryption\obj\Debug\netcoreapp3.0\02.SongEncryption.pdb

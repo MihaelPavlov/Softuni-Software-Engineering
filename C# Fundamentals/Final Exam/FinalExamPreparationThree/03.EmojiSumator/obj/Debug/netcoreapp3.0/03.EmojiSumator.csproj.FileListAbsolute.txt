@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\FinalExamPreparationThree\03.EmojiSumator\bin\Debug\netcoreapp3.0\03.EmojiSumator.exe
+C:\Users\USER\source\repos\FinalExamPreparationThree\03.EmojiSumator\bin\Debug\netcoreapp3.0\03.EmojiSumator.deps.json
+C:\Users\USER\source\repos\FinalExamPreparationThree\03.EmojiSumator\bin\Debug\netcoreapp3.0\03.EmojiSumator.runtimeconfig.json
+C:\Users\USER\source\repos\FinalExamPreparationThree\03.EmojiSumator\bin\Debug\netcoreapp3.0\03.EmojiSumator.runtimeconfig.dev.json
+C:\Users\USER\source\repos\FinalExamPreparationThree\03.EmojiSumator\bin\Debug\netcoreapp3.0\03.EmojiSumator.dll
+C:\Users\USER\source\repos\FinalExamPreparationThree\03.EmojiSumator\bin\Debug\netcoreapp3.0\03.EmojiSumator.pdb
+C:\Users\USER\source\repos\FinalExamPreparationThree\03.EmojiSumator\obj\Debug\netcoreapp3.0\03.EmojiSumator.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\FinalExamPreparationThree\03.EmojiSumator\obj\Debug\netcoreapp3.0\03.EmojiSumator.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\FinalExamPreparationThree\03.EmojiSumator\obj\Debug\netcoreapp3.0\03.EmojiSumator.AssemblyInfo.cs
+C:\Users\USER\source\repos\FinalExamPreparationThree\03.EmojiSumator\obj\Debug\netcoreapp3.0\03.EmojiSumator.dll
+C:\Users\USER\source\repos\FinalExamPreparationThree\03.EmojiSumator\obj\Debug\netcoreapp3.0\03.EmojiSumator.pdb

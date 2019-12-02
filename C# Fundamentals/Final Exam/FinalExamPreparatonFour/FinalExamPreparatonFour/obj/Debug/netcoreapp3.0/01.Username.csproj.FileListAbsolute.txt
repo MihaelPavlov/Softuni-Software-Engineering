@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\FinalExamPreparatonFour\FinalExamPreparatonFour\bin\Debug\netcoreapp3.0\01.Username.exe
+C:\Users\USER\source\repos\FinalExamPreparatonFour\FinalExamPreparatonFour\bin\Debug\netcoreapp3.0\01.Username.deps.json
+C:\Users\USER\source\repos\FinalExamPreparatonFour\FinalExamPreparatonFour\bin\Debug\netcoreapp3.0\01.Username.runtimeconfig.json
+C:\Users\USER\source\repos\FinalExamPreparatonFour\FinalExamPreparatonFour\bin\Debug\netcoreapp3.0\01.Username.runtimeconfig.dev.json
+C:\Users\USER\source\repos\FinalExamPreparatonFour\FinalExamPreparatonFour\bin\Debug\netcoreapp3.0\01.Username.dll
+C:\Users\USER\source\repos\FinalExamPreparatonFour\FinalExamPreparatonFour\bin\Debug\netcoreapp3.0\01.Username.pdb
+C:\Users\USER\source\repos\FinalExamPreparatonFour\FinalExamPreparatonFour\obj\Debug\netcoreapp3.0\01.Username.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\FinalExamPreparatonFour\FinalExamPreparatonFour\obj\Debug\netcoreapp3.0\01.Username.AssemblyInfo.cs
+C:\Users\USER\source\repos\FinalExamPreparatonFour\FinalExamPreparatonFour\obj\Debug\netcoreapp3.0\01.Username.dll
+C:\Users\USER\source\repos\FinalExamPreparatonFour\FinalExamPreparatonFour\obj\Debug\netcoreapp3.0\01.Username.pdb
+C:\Users\USER\source\repos\FinalExamPreparatonFour\FinalExamPreparatonFour\obj\Debug\netcoreapp3.0\01.Username.csprojAssemblyReference.cache

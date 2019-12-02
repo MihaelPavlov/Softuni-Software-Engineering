@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\AssociativeArraysLab\06.Courses\bin\Debug\netcoreapp3.0\06.Courses.exe
+C:\Users\USER\source\repos\AssociativeArraysLab\06.Courses\bin\Debug\netcoreapp3.0\06.Courses.deps.json
+C:\Users\USER\source\repos\AssociativeArraysLab\06.Courses\bin\Debug\netcoreapp3.0\06.Courses.runtimeconfig.json
+C:\Users\USER\source\repos\AssociativeArraysLab\06.Courses\bin\Debug\netcoreapp3.0\06.Courses.runtimeconfig.dev.json
+C:\Users\USER\source\repos\AssociativeArraysLab\06.Courses\bin\Debug\netcoreapp3.0\06.Courses.dll
+C:\Users\USER\source\repos\AssociativeArraysLab\06.Courses\bin\Debug\netcoreapp3.0\06.Courses.pdb
+C:\Users\USER\source\repos\AssociativeArraysLab\06.Courses\obj\Debug\netcoreapp3.0\06.Courses.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\AssociativeArraysLab\06.Courses\obj\Debug\netcoreapp3.0\06.Courses.AssemblyInfo.cs
+C:\Users\USER\source\repos\AssociativeArraysLab\06.Courses\obj\Debug\netcoreapp3.0\06.Courses.dll
+C:\Users\USER\source\repos\AssociativeArraysLab\06.Courses\obj\Debug\netcoreapp3.0\06.Courses.pdb
+C:\Users\USER\source\repos\AssociativeArraysLab\06.Courses\obj\Debug\netcoreapp3.0\06.Courses.csprojAssemblyReference.cache

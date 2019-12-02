@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\AssociativeArraysLab\01.CountReaLNumber\bin\Debug\netcoreapp3.0\01.CountReaLNumber.exe
+C:\Users\USER\source\repos\AssociativeArraysLab\01.CountReaLNumber\bin\Debug\netcoreapp3.0\01.CountReaLNumber.deps.json
+C:\Users\USER\source\repos\AssociativeArraysLab\01.CountReaLNumber\bin\Debug\netcoreapp3.0\01.CountReaLNumber.runtimeconfig.json
+C:\Users\USER\source\repos\AssociativeArraysLab\01.CountReaLNumber\bin\Debug\netcoreapp3.0\01.CountReaLNumber.runtimeconfig.dev.json
+C:\Users\USER\source\repos\AssociativeArraysLab\01.CountReaLNumber\bin\Debug\netcoreapp3.0\01.CountReaLNumber.dll
+C:\Users\USER\source\repos\AssociativeArraysLab\01.CountReaLNumber\bin\Debug\netcoreapp3.0\01.CountReaLNumber.pdb
+C:\Users\USER\source\repos\AssociativeArraysLab\01.CountReaLNumber\obj\Debug\netcoreapp3.0\01.CountReaLNumber.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\AssociativeArraysLab\01.CountReaLNumber\obj\Debug\netcoreapp3.0\01.CountReaLNumber.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\AssociativeArraysLab\01.CountReaLNumber\obj\Debug\netcoreapp3.0\01.CountReaLNumber.AssemblyInfo.cs
+C:\Users\USER\source\repos\AssociativeArraysLab\01.CountReaLNumber\obj\Debug\netcoreapp3.0\01.CountReaLNumber.dll
+C:\Users\USER\source\repos\AssociativeArraysLab\01.CountReaLNumber\obj\Debug\netcoreapp3.0\01.CountReaLNumber.pdb
