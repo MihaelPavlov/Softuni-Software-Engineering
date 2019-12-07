@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20 and 21 April2019 .4", "whileLoop Exsercise\20 and 21 April2019 .4.csproj", "{646264A1-2F3A-4D32-A5AB-0EEF23805325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eater Shop", "Eater Shop\Eater Shop.csproj", "{473A0B58-D928-4C50-A91C-298309D4397A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{646264A1-2F3A-4D32-A5AB-0EEF23805325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646264A1-2F3A-4D32-A5AB-0EEF23805325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646264A1-2F3A-4D32-A5AB-0EEF23805325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646264A1-2F3A-4D32-A5AB-0EEF23805325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473A0B58-D928-4C50-A91C-298309D4397A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473A0B58-D928-4C50-A91C-298309D4397A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473A0B58-D928-4C50-A91C-298309D4397A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473A0B58-D928-4C50-A91C-298309D4397A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF4A328C-5086-4616-B5BA-E6AA55026278}
+	EndGlobalSection
+EndGlobal
