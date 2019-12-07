@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\Exsercise - 18. 09\08. Triangle of Numbers\obj\Debug\08. Triangle of Numbers.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\Exsercise - 18. 09\08. Triangle of Numbers\obj\Debug\08. Triangle of Numbers.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\Exsercise - 18. 09\08. Triangle of Numbers\bin\Debug\_08.Triangle_of_Numbers.exe.config
-C:\Users\USER\source\repos\Exsercise - 18. 09\08. Triangle of Numbers\bin\Debug\_08.Triangle_of_Numbers.exe
-C:\Users\USER\source\repos\Exsercise - 18. 09\08. Triangle of Numbers\bin\Debug\_08.Triangle_of_Numbers.pdb
-C:\Users\USER\source\repos\Exsercise - 18. 09\08. Triangle of Numbers\obj\Debug\_08.Triangle_of_Numbers.exe
-C:\Users\USER\source\repos\Exsercise - 18. 09\08. Triangle of Numbers\obj\Debug\_08.Triangle_of_Numbers.pdb

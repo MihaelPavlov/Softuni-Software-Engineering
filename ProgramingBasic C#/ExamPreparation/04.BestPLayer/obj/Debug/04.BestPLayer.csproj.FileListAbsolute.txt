@@ -1,6 +1,0 @@
-C:\Users\USER\source\repos\ExamPreparation\04.BestPLayer\bin\Debug\04.BestPLayer.exe.config
-C:\Users\USER\source\repos\ExamPreparation\04.BestPLayer\bin\Debug\04.BestPLayer.exe
-C:\Users\USER\source\repos\ExamPreparation\04.BestPLayer\bin\Debug\04.BestPLayer.pdb
-C:\Users\USER\source\repos\ExamPreparation\04.BestPLayer\obj\Debug\04.BestPLayer.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\ExamPreparation\04.BestPLayer\obj\Debug\04.BestPLayer.exe
-C:\Users\USER\source\repos\ExamPreparation\04.BestPLayer\obj\Debug\04.BestPLayer.pdb

@@ -1,6 +1,0 @@
-C:\Users\USER\source\repos\Basic\Dance Room\bin\Debug\Dance Room.exe.config
-C:\Users\USER\source\repos\Basic\Dance Room\bin\Debug\Dance Room.exe
-C:\Users\USER\source\repos\Basic\Dance Room\bin\Debug\Dance Room.pdb
-C:\Users\USER\source\repos\Basic\Dance Room\obj\Debug\Dance Room.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\Basic\Dance Room\obj\Debug\Dance Room.exe
-C:\Users\USER\source\repos\Basic\Dance Room\obj\Debug\Dance Room.pdb

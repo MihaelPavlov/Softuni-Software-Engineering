@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\RealExam\RealExam\bin\Debug\RealExam.exe.config
-C:\Users\USER\source\repos\RealExam\RealExam\bin\Debug\RealExam.exe
-C:\Users\USER\source\repos\RealExam\RealExam\bin\Debug\RealExam.pdb
-C:\Users\USER\source\repos\RealExam\RealExam\obj\Debug\RealExam.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\RealExam\RealExam\obj\Debug\RealExam.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\RealExam\RealExam\obj\Debug\RealExam.exe
-C:\Users\USER\source\repos\RealExam\RealExam\obj\Debug\RealExam.pdb

@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\combination\Traveling\obj\Debug\Traveling.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\combination\Traveling\obj\Debug\Traveling.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\combination\Traveling\bin\Debug\Traveling.exe.config
-C:\Users\USER\source\repos\combination\Traveling\bin\Debug\Traveling.exe
-C:\Users\USER\source\repos\combination\Traveling\bin\Debug\Traveling.pdb
-C:\Users\USER\source\repos\combination\Traveling\obj\Debug\Traveling.exe
-C:\Users\USER\source\repos\combination\Traveling\obj\Debug\Traveling.pdb

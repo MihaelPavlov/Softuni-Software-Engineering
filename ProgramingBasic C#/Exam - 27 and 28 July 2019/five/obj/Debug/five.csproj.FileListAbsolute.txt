@@ -1,6 +1,0 @@
-C:\Users\USER\source\repos\exam1\five\bin\Debug\five.exe.config
-C:\Users\USER\source\repos\exam1\five\bin\Debug\five.exe
-C:\Users\USER\source\repos\exam1\five\bin\Debug\five.pdb
-C:\Users\USER\source\repos\exam1\five\obj\Debug\five.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\exam1\five\obj\Debug\five.exe
-C:\Users\USER\source\repos\exam1\five\obj\Debug\five.pdb

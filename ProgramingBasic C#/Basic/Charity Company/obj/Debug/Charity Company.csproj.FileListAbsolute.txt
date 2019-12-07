@@ -1,6 +1,0 @@
-C:\Users\USER\source\repos\Basic\Charity Company\bin\Debug\Charity Company.exe.config
-C:\Users\USER\source\repos\Basic\Charity Company\bin\Debug\Charity Company.exe
-C:\Users\USER\source\repos\Basic\Charity Company\bin\Debug\Charity Company.pdb
-C:\Users\USER\source\repos\Basic\Charity Company\obj\Debug\Charity Company.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\Basic\Charity Company\obj\Debug\Charity Company.exe
-C:\Users\USER\source\repos\Basic\Charity Company\obj\Debug\Charity Company.pdb

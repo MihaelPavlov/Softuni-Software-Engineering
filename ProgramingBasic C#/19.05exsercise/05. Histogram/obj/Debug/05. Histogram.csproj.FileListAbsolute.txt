@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\19.05Exsercise\05. Histogram\bin\Debug\_05.Histogram.exe.config
-C:\Users\USER\source\repos\19.05Exsercise\05. Histogram\bin\Debug\_05.Histogram.exe
-C:\Users\USER\source\repos\19.05Exsercise\05. Histogram\bin\Debug\_05.Histogram.pdb
-C:\Users\USER\source\repos\19.05Exsercise\05. Histogram\obj\Debug\05. Histogram.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\19.05Exsercise\05. Histogram\obj\Debug\05. Histogram.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\19.05Exsercise\05. Histogram\obj\Debug\_05.Histogram.exe
-C:\Users\USER\source\repos\19.05Exsercise\05. Histogram\obj\Debug\_05.Histogram.pdb

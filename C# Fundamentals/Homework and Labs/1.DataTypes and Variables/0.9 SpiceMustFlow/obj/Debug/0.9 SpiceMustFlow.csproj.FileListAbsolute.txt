@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\27.09.2019 Exsercise\0.9 SpiceMustFlow\bin\Debug\0.9 SpiceMustFlow.exe.config
-C:\Users\USER\source\repos\27.09.2019 Exsercise\0.9 SpiceMustFlow\bin\Debug\0.9 SpiceMustFlow.exe
-C:\Users\USER\source\repos\27.09.2019 Exsercise\0.9 SpiceMustFlow\bin\Debug\0.9 SpiceMustFlow.pdb
-C:\Users\USER\source\repos\27.09.2019 Exsercise\0.9 SpiceMustFlow\obj\Debug\0.9 SpiceMustFlow.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\27.09.2019 Exsercise\0.9 SpiceMustFlow\obj\Debug\0.9 SpiceMustFlow.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\27.09.2019 Exsercise\0.9 SpiceMustFlow\obj\Debug\0.9 SpiceMustFlow.exe
-C:\Users\USER\source\repos\27.09.2019 Exsercise\0.9 SpiceMustFlow\obj\Debug\0.9 SpiceMustFlow.pdb

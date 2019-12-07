@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\Exsercise - 18. 09\07. Vending Machine\bin\Debug\_07.Vending_Machine.exe.config
-C:\Users\USER\source\repos\Exsercise - 18. 09\07. Vending Machine\bin\Debug\_07.Vending_Machine.exe
-C:\Users\USER\source\repos\Exsercise - 18. 09\07. Vending Machine\bin\Debug\_07.Vending_Machine.pdb
-C:\Users\USER\source\repos\Exsercise - 18. 09\07. Vending Machine\obj\Debug\07. Vending Machine.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\Exsercise - 18. 09\07. Vending Machine\obj\Debug\07. Vending Machine.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\Exsercise - 18. 09\07. Vending Machine\obj\Debug\_07.Vending_Machine.exe
-C:\Users\USER\source\repos\Exsercise - 18. 09\07. Vending Machine\obj\Debug\_07.Vending_Machine.pdb

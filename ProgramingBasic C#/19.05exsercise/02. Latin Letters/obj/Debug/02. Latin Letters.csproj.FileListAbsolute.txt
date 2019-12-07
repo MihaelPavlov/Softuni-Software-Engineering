@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\19.05Exsercise\02. Latin Letters\bin\Debug\_02.Latin_Letters.exe.config
-C:\Users\USER\source\repos\19.05Exsercise\02. Latin Letters\bin\Debug\_02.Latin_Letters.exe
-C:\Users\USER\source\repos\19.05Exsercise\02. Latin Letters\bin\Debug\_02.Latin_Letters.pdb
-C:\Users\USER\source\repos\19.05Exsercise\02. Latin Letters\obj\Debug\02. Latin Letters.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\19.05Exsercise\02. Latin Letters\obj\Debug\02. Latin Letters.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\19.05Exsercise\02. Latin Letters\obj\Debug\_02.Latin_Letters.exe
-C:\Users\USER\source\repos\19.05Exsercise\02. Latin Letters\obj\Debug\_02.Latin_Letters.pdb

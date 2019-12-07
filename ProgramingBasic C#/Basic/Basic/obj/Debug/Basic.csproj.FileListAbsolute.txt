@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\Basic\Basic\bin\Debug\Basic.exe.config
-C:\Users\USER\source\repos\Basic\Basic\bin\Debug\Basic.exe
-C:\Users\USER\source\repos\Basic\Basic\bin\Debug\Basic.pdb
-C:\Users\USER\source\repos\Basic\Basic\obj\Debug\Basic.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\Basic\Basic\obj\Debug\Basic.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\Basic\Basic\obj\Debug\Basic.exe
-C:\Users\USER\source\repos\Basic\Basic\obj\Debug\Basic.pdb

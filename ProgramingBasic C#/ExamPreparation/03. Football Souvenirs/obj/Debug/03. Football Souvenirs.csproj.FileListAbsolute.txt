@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\ExamPreparation\03. Football Souvenirs\bin\Debug\_03.Football_Souvenirs.exe.config
-C:\Users\USER\source\repos\ExamPreparation\03. Football Souvenirs\bin\Debug\_03.Football_Souvenirs.exe
-C:\Users\USER\source\repos\ExamPreparation\03. Football Souvenirs\bin\Debug\_03.Football_Souvenirs.pdb
-C:\Users\USER\source\repos\ExamPreparation\03. Football Souvenirs\obj\Debug\03. Football Souvenirs.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\ExamPreparation\03. Football Souvenirs\obj\Debug\03. Football Souvenirs.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\ExamPreparation\03. Football Souvenirs\obj\Debug\_03.Football_Souvenirs.exe
-C:\Users\USER\source\repos\ExamPreparation\03. Football Souvenirs\obj\Debug\_03.Football_Souvenirs.pdb

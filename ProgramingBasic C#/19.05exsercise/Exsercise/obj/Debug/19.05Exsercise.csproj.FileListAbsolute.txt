@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\19.05Exsercise\19.05Exsercise\bin\Debug\19.05Exsercise.exe.config
-C:\Users\USER\source\repos\19.05Exsercise\19.05Exsercise\bin\Debug\19.05Exsercise.exe
-C:\Users\USER\source\repos\19.05Exsercise\19.05Exsercise\bin\Debug\19.05Exsercise.pdb
-C:\Users\USER\source\repos\19.05Exsercise\19.05Exsercise\obj\Debug\19.05Exsercise.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\19.05Exsercise\19.05Exsercise\obj\Debug\19.05Exsercise.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\19.05Exsercise\19.05Exsercise\obj\Debug\19.05Exsercise.exe
-C:\Users\USER\source\repos\19.05Exsercise\19.05Exsercise\obj\Debug\19.05Exsercise.pdb

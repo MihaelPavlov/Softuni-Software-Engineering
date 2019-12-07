@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\For-Loop Lekcii\02.ExamPrepariton\bin\Debug\02.ExamPrepariton.exe.config
-C:\Users\USER\source\repos\For-Loop Lekcii\02.ExamPrepariton\bin\Debug\02.ExamPrepariton.exe
-C:\Users\USER\source\repos\For-Loop Lekcii\02.ExamPrepariton\bin\Debug\02.ExamPrepariton.pdb
-C:\Users\USER\source\repos\For-Loop Lekcii\02.ExamPrepariton\obj\Debug\02.ExamPrepariton.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\For-Loop Lekcii\02.ExamPrepariton\obj\Debug\02.ExamPrepariton.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\For-Loop Lekcii\02.ExamPrepariton\obj\Debug\02.ExamPrepariton.exe
-C:\Users\USER\source\repos\For-Loop Lekcii\02.ExamPrepariton\obj\Debug\02.ExamPrepariton.pdb

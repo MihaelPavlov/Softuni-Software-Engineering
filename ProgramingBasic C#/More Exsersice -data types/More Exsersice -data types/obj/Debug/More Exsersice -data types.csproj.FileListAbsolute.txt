@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\More Exsersice -data types\More Exsersice -data types\bin\Debug\More Exsersice -data types.exe.config
-C:\Users\USER\source\repos\More Exsersice -data types\More Exsersice -data types\bin\Debug\More Exsersice -data types.exe
-C:\Users\USER\source\repos\More Exsersice -data types\More Exsersice -data types\bin\Debug\More Exsersice -data types.pdb
-C:\Users\USER\source\repos\More Exsersice -data types\More Exsersice -data types\obj\Debug\More Exsersice -data types.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\More Exsersice -data types\More Exsersice -data types\obj\Debug\More Exsersice -data types.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\More Exsersice -data types\More Exsersice -data types\obj\Debug\More Exsersice -data types.exe
-C:\Users\USER\source\repos\More Exsersice -data types\More Exsersice -data types\obj\Debug\More Exsersice -data types.pdb

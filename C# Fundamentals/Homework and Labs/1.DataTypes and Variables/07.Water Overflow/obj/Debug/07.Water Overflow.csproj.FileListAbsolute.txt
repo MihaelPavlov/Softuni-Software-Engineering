@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\27.09.2019 Exsercise\07.Water Overflow\bin\Debug\07.Water Overflow.exe.config
-C:\Users\USER\source\repos\27.09.2019 Exsercise\07.Water Overflow\bin\Debug\07.Water Overflow.exe
-C:\Users\USER\source\repos\27.09.2019 Exsercise\07.Water Overflow\bin\Debug\07.Water Overflow.pdb
-C:\Users\USER\source\repos\27.09.2019 Exsercise\07.Water Overflow\obj\Debug\07.Water Overflow.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\27.09.2019 Exsercise\07.Water Overflow\obj\Debug\07.Water Overflow.exe
-C:\Users\USER\source\repos\27.09.2019 Exsercise\07.Water Overflow\obj\Debug\07.Water Overflow.pdb
-C:\Users\USER\source\repos\27.09.2019 Exsercise\07.Water Overflow\obj\Debug\07.Water Overflow.csprojAssemblyReference.cache

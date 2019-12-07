@@ -1,7 +1,0 @@
-C:\Users\USER\source\repos\Training.01\Everest\bin\Debug\Everest.exe.config
-C:\Users\USER\source\repos\Training.01\Everest\bin\Debug\Everest.exe
-C:\Users\USER\source\repos\Training.01\Everest\bin\Debug\Everest.pdb
-C:\Users\USER\source\repos\Training.01\Everest\obj\Debug\Everest.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\Training.01\Everest\obj\Debug\Everest.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\Training.01\Everest\obj\Debug\Everest.exe
-C:\Users\USER\source\repos\Training.01\Everest\obj\Debug\Everest.pdb

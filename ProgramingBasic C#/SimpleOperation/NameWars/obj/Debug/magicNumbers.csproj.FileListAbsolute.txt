@@ -1,6 +1,0 @@
-C:\Users\USER\source\repos\combination\NameWars\bin\Debug\NameWars.exe.config
-C:\Users\USER\source\repos\combination\NameWars\bin\Debug\NameWars.exe
-C:\Users\USER\source\repos\combination\NameWars\bin\Debug\NameWars.pdb
-C:\Users\USER\source\repos\combination\NameWars\obj\Debug\magicNumbers.csproj.CoreCompileInputs.cache
-C:\Users\USER\source\repos\combination\NameWars\obj\Debug\NameWars.exe
-C:\Users\USER\source\repos\combination\NameWars\obj\Debug\NameWars.pdb
