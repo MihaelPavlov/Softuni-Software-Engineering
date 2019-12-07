@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Concert", "FinalExamPreparationTwo\01.Concert.csproj", "{EBC40888-D9C7-4C5E-87A7-B0E8F116569F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SongEncryption", "02.SongEncryption\02.SongEncryption.csproj", "{AD260FA7-2ACF-4392-94C3-465FDBED3EC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBC40888-D9C7-4C5E-87A7-B0E8F116569F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC40888-D9C7-4C5E-87A7-B0E8F116569F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC40888-D9C7-4C5E-87A7-B0E8F116569F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC40888-D9C7-4C5E-87A7-B0E8F116569F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD260FA7-2ACF-4392-94C3-465FDBED3EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD260FA7-2ACF-4392-94C3-465FDBED3EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD260FA7-2ACF-4392-94C3-465FDBED3EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD260FA7-2ACF-4392-94C3-465FDBED3EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28351520-C2B0-4961-879E-70DCF8BC1619}
+	EndGlobalSection
+EndGlobal
