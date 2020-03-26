@@ -7,21 +7,26 @@ namespace PlayersAndMonsters.Core.Contracts
 {
     public class Engine : IEngine
     {
-
-        private IReader reader;
-        private IWriter writer;
+        private readonly IManagerController manager;
+        private readonly IReader reader;
+        private readonly IWriter writer;
         public Engine()
         {
             this.reader = new Reader();
             this.writer = new Writer();
+            this.manager = new ManagerController();
         }
         public void Run()
         {
-            var input = Console.ReadLine().Split();
-            var manager = new ManagerController();
+            
 
-            while (input[0] != "Exit")
+            while (true)
             {
+            var input = reader.ReadLine().Split();
+                if (input[0] == "Exit")
+                {
+                    break;
+                }
                 try
                 {
 
@@ -30,37 +35,37 @@ namespace PlayersAndMonsters.Core.Contracts
                     {
                         string playerType = input[1];
                         string playerUsername = input[2];
-                        Console.WriteLine(manager.AddPlayer(playerType, playerUsername));
+                        writer.WriteLine(manager.AddPlayer(playerType, playerUsername));
                     }
                     else if (command == "AddCard")
                     {
                         string cardType = input[1];
                         string cardUsername = input[2];
-                        Console.WriteLine(manager.AddCard(cardType, cardUsername));
+                        writer.WriteLine(manager.AddCard(cardType, cardUsername));
                     }
                     else if (command == "AddPlayerCard")
                     {
                         string username = input[1];
                         string cardUsername = input[2];
-                        Console.WriteLine(manager.AddPlayerCard(username, cardUsername));
+                        writer.WriteLine(manager.AddPlayerCard(username, cardUsername));
                     }
                     else if (command == "Fight")
                     {
                         string attacker = input[1];
                         string enemy = input[2];
-                        Console.WriteLine(manager.Fight(attacker, enemy));
+                        writer.WriteLine(manager.Fight(attacker, enemy));
                     }
                     else if (command == "Report")
                     {
-                        Console.WriteLine(manager.Report());
+                        writer.WriteLine(manager.Report());
                     }
                 }
-                catch (Exception ex)
+                catch (ArgumentException ex)
                 {
 
                     Console.WriteLine(ex.Message);
                 }
-                input = Console.ReadLine().Split();
+               
             }
         }
     }

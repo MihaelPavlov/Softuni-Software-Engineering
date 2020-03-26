@@ -8,29 +8,29 @@ namespace PlayersAndMonsters.Repositories.Contracts
 {
    public class PlayerRepository : IPlayerRepository
     {
-        private  List<IPlayer> players;
+        private readonly List<IPlayer> players;
 
         public PlayerRepository()
         {
             this.players = new List<IPlayer>();
         }
-        public int Count { get; set; }
+        public int Count => this.Players.Count;
 
         public IReadOnlyCollection<IPlayer> Players => this.players;
 
         public void Add(IPlayer player)
         {
-            IPlayer equalsNames = this.players.FirstOrDefault(p => p.Username == player.Username);
+            bool equalsNames = this.players.Any(p => p.Username == player.Username);
             if (player == null)
             {
                 throw new ArgumentException("Player cannot be null");
             }
-            else if (equalsNames!=null)
+            else if (equalsNames)
             {
                 throw new ArgumentException($"Player {player.Username} already exists!") ;
             }
             this.players.Add(player);
-            this.Count++;
+          
         }
 
         public IPlayer Find(string username)
@@ -45,7 +45,7 @@ namespace PlayersAndMonsters.Repositories.Contracts
             {
                 throw new ArgumentException("Player cannot be null");
             }
-            this.Count--;
+           
             return this.players.Remove(player);
 
         }

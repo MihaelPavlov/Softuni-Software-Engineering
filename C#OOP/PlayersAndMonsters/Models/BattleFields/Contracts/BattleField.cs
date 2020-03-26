@@ -34,7 +34,7 @@ namespace PlayersAndMonsters.Models.BattleFields.Contracts
             attackPlayer.Health += attackPlayer.CardRepository.Cards.Select(c => c.HealthPoints).Sum();
             enemyPlayer.Health += enemyPlayer.CardRepository.Cards.Select(c => c.HealthPoints).Sum();
 
-            while (!attackPlayer.IsDead && !enemyPlayer.IsDead)
+            while (true)
             {
                 var attackerAttackPoints = attackPlayer.CardRepository.Cards.Select(c => c.DamagePoints).Sum();
 

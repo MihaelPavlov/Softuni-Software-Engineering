@@ -8,12 +8,12 @@ namespace PlayersAndMonsters.Repositories.Contracts
 {
    public class CardRepository : ICardRepository
     {
-        private List<ICard> cards;
+        private readonly List<ICard> cards;
         public CardRepository()
         {
             this.cards = new List<ICard>();
         }
-        public int Count { get; set; }
+        public int Count => this.Cards.Count;
 
         public IReadOnlyCollection<ICard> Cards => this.cards;
 
@@ -23,12 +23,11 @@ namespace PlayersAndMonsters.Repositories.Contracts
             {
                 throw new ArgumentException("Card cannot be null!");
             }
-            ICard equalsCards = this.cards.FirstOrDefault(p => p.Name == card.Name);
-            if(equalsCards!=null)
+            bool equalsCards = this.cards.Any(p => p.Name == card.Name);
+            if(equalsCards)
             {
                 throw new ArgumentException($"Card {card.Name} already exists!");
             }
-            this.Count++;
             this.cards.Add(card);
         }
 
@@ -44,7 +43,6 @@ namespace PlayersAndMonsters.Repositories.Contracts
             {
                 throw new ArgumentException("Card cannot be null!");
             }
-            this.Count--;
             return this.cards.Remove(card);
         }
     }

@@ -10,13 +10,12 @@ namespace PlayersAndMonsters.Models.Players.Contracts
     {
         private string username;
         private int health;
-        private ICardRepository cards;
 
-        public Player(ICardRepository cardRepository , string username, int health)
+        protected Player(ICardRepository cardRepository, string username, int health)
         {
-            this.cards = cardRepository;
             this.Username = username;
             this.Health = health;
+            this.CardRepository = cardRepository;
 
         }
         public string Username
@@ -25,11 +24,11 @@ namespace PlayersAndMonsters.Models.Players.Contracts
             {
                 return this.username;
             }
-            set
+            private set
             {
                 if (string.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentException("Player's username cannot be null or an empty string.");
+                    throw new ArgumentException("Player's username cannot be null or an empty string. ");
                 }
                 this.username = value;
             }
@@ -43,9 +42,9 @@ namespace PlayersAndMonsters.Models.Players.Contracts
             }
             set
             {
-                if (value<0)
+                if (value < 0)
                 {
-                    throw new ArgumentException("Player's health bonus cannot be less than zero.") ;
+                    throw new ArgumentException("Player's health bonus cannot be less than zero. ");
                 }
                 this.health = value;
             }
@@ -53,20 +52,24 @@ namespace PlayersAndMonsters.Models.Players.Contracts
 
 
         public bool IsDead => this.Health <= 0;
-        public ICardRepository CardRepository => cards;
+        public ICardRepository CardRepository { get; }
 
         public void TakeDamage(int damagePoints)
         {
-            if (damagePoints<0)
+            if (damagePoints < 0)
             {
-                throw new ArgumentException("Damage points cannot be less than zero.") ;
+                throw new ArgumentException("Damage points cannot be less than zero.");
             }
-            if (this.Health-damagePoints<0)
+            if (this.Health - damagePoints >= 0)
+            {
+                this.Health -= damagePoints;
+
+            }
+            else
             {
                 this.Health = 0;
-                return;
+
             }
-            this.Health -= damagePoints;
         }
     }
 }

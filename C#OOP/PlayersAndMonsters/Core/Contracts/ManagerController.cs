@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using PlayersAndMonsters.Models.BattleFields.Contracts;
+using PlayersAndMonsters.Core.Factories.Contracts;
 
 namespace PlayersAndMonsters.Core.Contracts
 {
@@ -13,24 +14,22 @@ namespace PlayersAndMonsters.Core.Contracts
     {
         private readonly IPlayerRepository players;
         private readonly ICardRepository cards;
+        private readonly BattleField field;
+        private readonly CardFactory cardFactory;
+        private readonly PlayerFactory playerFactory;
 
         public ManagerController()
         {
             this.players = new PlayerRepository();
             this.cards = new CardRepository();
+            this.field = new BattleField();
+            this.cardFactory = new CardFactory();
+            this.playerFactory = new PlayerFactory();
         }
         public string AddCard(string type, string name)
         {
             ICard card = null;
-            
-            if (type == "Magic")//maybe MagicCard
-            {
-                card = new MagicCard(name);
-            }
-            else if (type=="Trap") //Maybe TrapCard
-            {
-                card = new TrapCard(name);
-            }
+           card= cardFactory.CreateCard(type, name);
             this.cards.Add(card);
             return $"Successfully added card of type {type}Card with name: {name}";
         }
@@ -38,14 +37,7 @@ namespace PlayersAndMonsters.Core.Contracts
         public string AddPlayer(string type, string username)
         {
             IPlayer player = null;
-            if (type == "Beginner")
-            {
-                player = new Beginner(new CardRepository(),username);
-            }
-            else if (type=="Advanced")
-            {
-                player = new Advanced(new CardRepository(), username);
-            }
+            player = playerFactory.CreatePlayer(type, username);
             this.players.Add(player);
             return $"Successfully added player of type {type} with username: {username}";
         }
@@ -62,7 +54,7 @@ namespace PlayersAndMonsters.Core.Contracts
         {
             IPlayer attacker = this.players.Find(attackUser);
             IPlayer enemy = this.players.Find(enemyUser);
-            BattleField field = new BattleField();
+            
             field.Fight(attacker,enemy);
             return $"Attack user health {attacker.Health} - Enemy user health {enemy.Health}";
         }
