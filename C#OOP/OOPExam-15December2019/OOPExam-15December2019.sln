@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPExam-15December2019", "OOPExam-15December2019\OOPExam-15December2019.csproj", "{BC20DC8E-6286-4C87-A55F-49481012F0F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AquaShop", "AquaShop\AquaShop.csproj", "{760D273B-77AF-41F1-9278-B041971EAFD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC20DC8E-6286-4C87-A55F-49481012F0F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC20DC8E-6286-4C87-A55F-49481012F0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC20DC8E-6286-4C87-A55F-49481012F0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC20DC8E-6286-4C87-A55F-49481012F0F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760D273B-77AF-41F1-9278-B041971EAFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760D273B-77AF-41F1-9278-B041971EAFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760D273B-77AF-41F1-9278-B041971EAFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760D273B-77AF-41F1-9278-B041971EAFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E48BF583-DE8D-4285-A9EF-D41EF5CBBA7F}
+	EndGlobalSection
+EndGlobal

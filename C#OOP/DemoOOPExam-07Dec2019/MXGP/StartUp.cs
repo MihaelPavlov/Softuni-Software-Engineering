@@ -1,0 +1,17 @@
+﻿using System;
+
+namespace MXGP
+{
+    using Models.Motorcycles;
+    using MXGP.Core;
+    using MXGP.Models.Motorcycles.Contracts;
+
+    public class StartUp
+    {
+        public static void Main(string[] args)
+        {
+            var engine = new Engine();
+            engine.Run();
+        }
+    }
+}

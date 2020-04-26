@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPExam-14Apr2019", "OOPExam-14Apr2019\OOPExam-14Apr2019.csproj", "{16FC4E6F-B0C2-419C-820D-485014A9A53C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortalEngines", "MortalEngines\MortalEngines.csproj", "{388CA322-98F0-4304-85C1-09FB60669C85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16FC4E6F-B0C2-419C-820D-485014A9A53C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FC4E6F-B0C2-419C-820D-485014A9A53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FC4E6F-B0C2-419C-820D-485014A9A53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FC4E6F-B0C2-419C-820D-485014A9A53C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388CA322-98F0-4304-85C1-09FB60669C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388CA322-98F0-4304-85C1-09FB60669C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388CA322-98F0-4304-85C1-09FB60669C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388CA322-98F0-4304-85C1-09FB60669C85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D6646FE-4C28-45E2-BC9E-BD38BA983162}
+	EndGlobalSection
+EndGlobal
