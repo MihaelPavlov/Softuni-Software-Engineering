@@ -48,7 +48,7 @@
 <tbody>
 <tr>
 <td align="center" width="33%">Programming C# Basics <br>  April 2019 <br> 06.04.2019 - 15.06.2019</td>
-<td align="center" width="33%"> Grade: 6.00</td>
+<td align="center" width="33%"> Grade: 5.45</td>
 <td align="center" width="33%"><p><a title="Programming C# Basics" href="https://softuni.bg/certificates/details/67443/ef10b5a9" target="_blank">Certificate</a></p></td>
         </tr>
         </tbody>
