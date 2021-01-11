@@ -15,20 +15,23 @@ function solve(speed , area){
     limit = 20 ; 
   }
 
-  let speedOverTheLimit = speed-limit;
+  let speedOverTheLimit = limit-speed;
 
-  if (speed <= limit) {
-    console.log(`Driving ${speed} km/h in a ${limit} zone`)
-  }
-  else if (speedOverTheLimit <= 20) {
-    console.log(`The speed is ${speedOverTheLimit} km/h faster than the allowed speed of ${limit} - speeding`);
-  }
-  else if (speedOverTheLimit <= 40) {
-    console.log(`The speed is ${speedOverTheLimit} km/h faster than the allowed speed of ${limit} - excessive speeding`);
-  }
-  else {
-    console.log(`The speed is ${speedOverTheLimit} km/h faster than the allowed speed of ${limit} - reckless driving`);
-  }  
+
+    if (speedOverTheLimit>=-20) {
+      console.log(`Driving ${speed} km/h in a ${limit} zone`)
+  
+    }
+    else if (speedOverTheLimit <= 20) {
+      console.log(`The speed is ${speedOverTheLimit} km/h faster than the allowed speed of ${limit} - speeding`);
+    }
+    else if (speedOverTheLimit <= 40) {
+      console.log(`The speed is ${speedOverTheLimit} km/h faster than the allowed speed of ${limit} - excessive speeding`);
+    }
+    else {
+      console.log(`The speed is ${speedOverTheLimit} km/h faster than the allowed speed of ${limit} - reckless driving`);
+    }    
+ 
 }
 solve('40','city');
 solve('21','residential');
