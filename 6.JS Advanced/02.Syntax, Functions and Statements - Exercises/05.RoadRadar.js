@@ -1,6 +1,6 @@
 function solve(speed , area){
 
-  var limit = 0 ;
+  let limit = 0 ;
 
   if (area=='motorway') {
     limit = 130 ; 
@@ -15,17 +15,17 @@ function solve(speed , area){
     limit = 20 ; 
   }
 
-  let speedOverTheLimit = limit-speed;
+  let speedOverTheLimit = speed-limit;
 
 
-    if (speedOverTheLimit>=-20) {
+    if (speedOverTheLimit<=0) {
       console.log(`Driving ${speed} km/h in a ${limit} zone`)
   
     }
     else if (speedOverTheLimit <= 20) {
       console.log(`The speed is ${speedOverTheLimit} km/h faster than the allowed speed of ${limit} - speeding`);
     }
-    else if (speedOverTheLimit <= 40) {
+    else if (speedOverTheLimit >20 &&speedOverTheLimit <= 40) {
       console.log(`The speed is ${speedOverTheLimit} km/h faster than the allowed speed of ${limit} - excessive speeding`);
     }
     else {

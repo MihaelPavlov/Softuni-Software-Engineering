@@ -1,7 +1,7 @@
 function solve(number , operation1,operation2,operation3,operation4,operation5){
 
   let endNumber = Number(number);
-  let arrayOperations = [operation1,operation2,operation3,operation4,operation5];
+  const arrayOperations = [operation1,operation2,operation3,operation4,operation5];
 
  for (let index = 0; index < arrayOperations.length; index++) {
     if (arrayOperations[index] == 'chop') {
