@@ -5,4 +5,4 @@ function solve(arr) {
 }
 
 console.log(solve(["test", "Deny", "omen", "Default"]));
-//console.log(solve(["Isacc", "Theodor", "Jack", "Harrison", "George"]));
+console.log(solve(["Isacc", "Theodor", "Jack", "Harrison", "George"]));

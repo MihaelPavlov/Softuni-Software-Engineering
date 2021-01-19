@@ -8,4 +8,14 @@ function solve(input) {
   return result;
 }
 
+function solve2(input) {
+  let result = input
+    .sort((a, b) => a.localeCompare(b))
+    .map((el, index) => {
+      return `${index + 1}.${el}`;
+    });
+
+  return result.join("\r\n");
+}
+
 console.log(solve(["John", "Bob", "Christina", "Ema"]));
