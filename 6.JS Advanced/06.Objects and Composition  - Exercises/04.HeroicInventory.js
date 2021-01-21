@@ -1,27 +1,16 @@
 function solve(input) {
-  const myObj = [];
+  let myObj = [];
 
   for (const hero of input) {
-    let splitHero = hero.split(" / ");
-    let theHero = createHero(splitHero[0], splitHero[1]);
-    myObj.push(theHero);
+    let [name, level, splitItems] = hero.split(" / ");
+    level = Number(level);
 
-    let splitItems = splitHero[2].split(", ");
+    let items = splitItems ? splitItems.split(", ") : [];
 
-    for (let index = 0; index < splitItems.length; index++) {
-      myObj[items].push(splitItems[index]);
-    }
+    myObj.push({ name, level, items });
   }
 
-  function createHero(name, level) {
-    return {
-      name,
-      level,
-      items: [],
-    };
-  }
-
-  return myObj;
+  return JSON.stringify(myObj);
 }
 
 console.log(
