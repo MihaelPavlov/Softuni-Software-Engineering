@@ -1,26 +1,39 @@
 function attachEventsListeners() {
-  //get all buttons
-  const daysBtn = document.getElementById("daysBtn");
-  const hoursBtn = document.getElementById("hoursBtn");
-  const minutesBtn = document.getElementById("minutesBtn");
-  const secondsBtn = document.getElementById("secondsBtn");
-  // add event listener to all buttons
+  let daysInput = document.getElementById("days");
+  let hoursInput = document.getElementById("hours");
+  let minutesInput = document.getElementById("minutes");
+  let secondsInput = document.getElementById("seconds");
 
-  daysBtn.addEventListener("click", clickTimeConverter);
-  hoursBtn.addEventListener("click", clickTimeConverter);
-  minutesBtn.addEventListener("click", clickTimeConverter);
-  secondsBtn.addEventListener("click", clickTimeConverter);
-  // read button when is cleacked
+  let daysBtn = document.getElementById("daysBtn");
+  let hoursBtn = document.getElementById("hoursBtn");
+  let minutesBtn = document.getElementById("minutesBtn");
+  let secondsBtn = document.getElementById("secondsBtn");
 
-  function clickTimeConverter(event) {
-    const inputValue = event.target.parentNode.getElementsByTagName("input")[0]
-      .value;
+  daysBtn.addEventListener("click", function () {
+    let days = daysInput.value;
+    hoursInput.value = days * 24;
+    minutesInput.value = days * 1440;
+    secondsInput.value = days * 86400;
+  });
 
-    const inputTime = event.target.parentNode.getElementsByTagName("input")[0];
+  hoursBtn.addEventListener("click", function () {
+    let hours = hoursInput.value;
+    daysInput.value = hours / 24;
+    minutesInput.value = hours * 60;
+    secondsInput.value = hours * 60 * 60;
+  });
 
-    let arrResult = [];
+  minutesBtn.addEventListener("click", function () {
+    let minutes = minutesInput.value;
+    hoursInput.value = minutes / 60;
+    daysInput.value = minutes / 60 / 24;
+    secondsInput.value = minutes * 60;
+  });
 
-    console.log(event.target.parentNode.getElementsByTagName("input")[0]);
-  }
-  //conver the value to other three time units
+  secondsBtn.addEventListener("click", function () {
+    let seconds = secondsInput.value;
+    hoursInput.value = seconds / 60 / 60;
+    minutesInput.value = seconds / 60;
+    daysInput.value = seconds / 60 / 60 / 24;
+  });
 }
