@@ -1,19 +1,21 @@
-class List {
-  constructor() {
-    this.array = [];
-  }
-  get size() {
-    return this.array.length;
-  }
-
-  add(element) {
-    this.array.push(element);
+class SortedList {
+  nums = [];
+  size = 0;
+  add(x) {
+    this.nums.push(x);
+    this.nums.sort((a, b) => a - b);
+    this.size += 1;
   }
   remove(index) {
-    this.array.splice(index - 1, index);
+    if (index >= 0 && index < this.nums.length) {
+      this.nums.splice(index, 1);
+      this.size -= 1;
+    }
   }
   get(index) {
-    return this.array[index];
+    if (index >= 0 && index < this.nums.length) {
+      return this.nums[index];
+    }
   }
 }
 

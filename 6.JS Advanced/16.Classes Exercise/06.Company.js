@@ -1,70 +1,74 @@
 class Company {
-  constructor() {
-    this.departments = [];
-  }
-
+  departments = [];
+  constructor() {}
   addEmployee(username, salary, position, department) {
-    if (username == "" || salary == "" || position == "" || department == "") {
-      console.log("Invalid input!");
-      return;
+    let employee = {
+      username: username,
+      salary: salary,
+      position: position,
+      department: department,
+    };
+    this.validate(username, salary, position, department);
+    if (this.departments[department]) {
+      this.departments[department].push(employee);
+    } else {
+      this.departments[department] = [];
+      this.departments[department].push(employee);
     }
-    if (salary < 0) {
-      console.log("Invalid input!");
-      return;
-    }
-    this.departments.push({ department, username, salary, position });
-    return `New employee is hired. Name: ${username}. Position: ${position}`;
+    return `New employee is hired. Name: ${employee.username}. Position: ${employee.position}`;
   }
 
   bestDepartment() {
-    this.departments.sort((a, b) => {
-      if (a.department < b.department) return -1;
-      return a.department > b.department ? 1 : 0;
-    });
-    let resultSalary = {};
-
-    for (const el of this.departments) {
-      if (!resultSalary[el.department]) {
-        resultSalary[el.department] = { salary: el.salary, count: 1 };
-
-        continue;
+    let department = "";
+    let maxSalary = 0;
+    Object.entries(this.departments).forEach(([key, value]) => {
+      let salary = 0;
+      value.forEach((e) => {
+        salary += e.salary;
+      });
+      salary = salary / value.length;
+      if (salary > maxSalary) {
+        department = key;
+        maxSalary = salary;
       }
-      resultSalary[el.department].salary += el.salary;
-      resultSalary[el.department].count++;
+    });
+    if (department != "") {
+      let res = `Best Department is: ${department}\nAverage salary: ${maxSalary.toFixed(
+        2
+      )}\n`;
+      Object.values(this.departments[department])
+        .sort(
+          (a, b) => b.salary - a.salary || a.username.localeCompare(b.username)
+        )
+        .forEach((e) => {
+          let em = `${e.username} ${e.salary} ${e.position}\n`;
+          res += em;
+        });
+      return res.trim();
     }
+  }
 
-    let resultName = ["", 0];
-    for (const el in resultSalary) {
-      resultSalary[el].salary =
-        resultSalary[el].salary / resultSalary[el].count;
-      if (resultSalary[el].salary > resultName[1]) {
-        resultName[0] = el;
-        resultName[1] = Number(resultSalary[el].salary);
-      }
+  validate(username, salary, position, department) {
+    if (
+      username === null ||
+      username === undefined ||
+      username === "" ||
+      salary === null ||
+      salary === undefined ||
+      salary === "" ||
+      position === null ||
+      position === undefined ||
+      position === "" ||
+      department === null ||
+      department === undefined ||
+      department === ""
+    ) {
+      throw new Error("Invalid input!");
     }
-
-    let bestDepartment = this.departments.map(function (x) {
-      if (x.department === resultName[0]) {
-        return x;
-      }
-    });
-
-    let filtered = bestDepartment
-      .filter(
-        (x) =>
-          function (x) {
-            return x != null;
-          }
-      )
-      .sort((a, b) => b.salary - a.salary || b.username - a.username);
-
-    console.log(`Best department is: ${filtered[0].department}`);
-    console.log(`Average salary: ${resultName[1].toFixed(2)}`);
-    filtered.forEach((el) => {
-      if (el != undefined) {
-        console.log(el.username, el.salary, el.position);
-      }
-    });
+    if (salary <= 0) {
+      throw new Error("Invalid input!");
+    }
+    return true;
   }
 }
 
