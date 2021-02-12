@@ -1,5 +1,4 @@
-function solve() {
-  let array = [1, 2, 3, 4, 5];
+(function solve() {
   Array.prototype.last = function () {
     return this[this.length - 1];
   };
@@ -12,7 +11,26 @@ function solve() {
     return result;
   };
 
-  console.log(array.skip(1));
-  console.log(array.last());
-}
+  Array.prototype.take = function (n) {
+    let result = [];
+
+    for (let i = 0; i < n; i++) {
+      result.push(this[i]);
+    }
+
+    return result;
+  };
+
+  Array.prototype.sum = function () {
+    let result = 0;
+    for (let i = 0; i < this.length; i++) {
+      result += this[i];
+    }
+    return result;
+  };
+
+  Array.prototype.average = function () {
+    return this.sum() / this.length;
+  };
+})();
 solve();
