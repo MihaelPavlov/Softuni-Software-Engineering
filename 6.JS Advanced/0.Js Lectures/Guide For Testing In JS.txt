@@ -1,0 +1,15 @@
+TERMINAL
+
+npm init   enter enter до края до като видиш yes и тва създава package.json
+npm install mocha
+npm install chai
+
+create launch.json 
+
+//${file}
+//tdd => bdd
+
+configuration Mocha Tests
+
+const describe = require("mocha").describe;
+const assert = require("chai").assert;

@@ -1,0 +1,45 @@
+--Request Line
+--Headers
+--Body(optinal)
+--Empty line 
+
+1.REST Countries
+
+ -GET /rest/v2/Bulgaria HTTP/1.1
+  Host: restcountries.eu
+ -https://restcountries.eu/rest/v2/name/Bulgaria
+ -https://restcountries.eu/rest/v2/name/Italy?fields=name;capital;region;population
+ -https://restcountries.eu/rest/v2/lang/de?fields=name
+
+2.Bus Stop
+
+ -
+
+
+
+3.Phonebook GET
+ -http://localhost:3030/jsonstore/phonebook/phonebook\
+
+4.Phonebook POST
+ -POST Request -> http://localhost:3030/jsonstore/phonebook/phonebook
+ -inside body json -> 
+  {
+    "person" : "Peter",
+    "phone" : "+111312-312312"
+
+  }
+
+5.Employees
+
+ GET Request
+ -http://dummy.restapiexample.com/api/v1/employees
+ -http://dummy.restapiexample.com/api/v1/employee/1
+
+ POST Request
+ -http://dummy.restapiexample.com/api/v1/create
+
+ PUT Request
+ -http://dummy.restapiexample.com/api/v1/update/16   --> 16 is Id
+
+ DELETE Request
+ -http://dummy.restapiexample.com/api/v1/delete/16   
