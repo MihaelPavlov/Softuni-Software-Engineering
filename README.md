@@ -3,11 +3,19 @@
 
 
 <hr>
-<table border="0" width="100%" cellspacing="1" cellpadding="3" align="center">
+<table border="0" width="100%" cellspacing="1" cellpadding="3" align="center">           
+              <!-- JS Advanced-->
+<tbody>
+<tr>
+<td align="center" width="33%">JS Advanced<br>January 2021<br> 11/01/2021 - 21/02/2021 </td>
+<td align="center" width="33%"> Grade: 6.00 </td >
+<td align="center" width="33%"><p><a title="JS Advanced" href="https://softuni.bg/certificates/details/98438/132880d5" target="_blank">Certificate</a></p></td -->   
+</tr>
+</tbody>
              <!-- C# ASP.Net Core-->
 <tbody>
 <tr>
-<td align="center" width="33%">Programming C# ASP.NET Core <br> September 2020 <br> 27.10.2020 - 29.12.2020 </td>
+<td align="center" width="33%">Programming C# ASP.NET Core <br> September 2020   <br> 27.10.2020 - 29.12.2020 </td>
 <td align="center" width="33%"> Grade: 6.00 </td >
 <td align="center" width="33%"><p><a title="C# ASP.Net Core" href="https://softuni.bg/certificates/details/96103/5bb015b5" target="_blank">Certificate</a></p></td -->   
 </tr>
