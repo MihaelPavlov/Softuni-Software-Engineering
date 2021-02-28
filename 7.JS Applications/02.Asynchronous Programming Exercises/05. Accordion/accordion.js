@@ -4,7 +4,6 @@ async function solution() {
   const response = await fetch(url);
   const data = await response.json();
 
-
   for (const [key, value] of Object.entries(data)) {
     const divAccardion = e("div", undefined, ["class=accordion"]);
     const divHead = e("div", undefined, ["class=head"]);
@@ -13,23 +12,26 @@ async function solution() {
     button.id = value._id;
     const divExtra = e("div", undefined, ["class=extra"]);
     let text = await getMoreData(value._id);
-    const p = e("p",text );
+    const p = e("p", text);
 
     divHead.appendChild(span);
     divHead.appendChild(button);
     divExtra.appendChild(p);
     divAccardion.appendChild(divHead);
     divAccardion.appendChild(divExtra);
-    document.getElementById("main").appendChild(divAccardion)
+    document.getElementById("main").appendChild(divAccardion);
   }
   document.getElementById("main").addEventListener("click", function (e) {
-     
-    if (e.target.tagName ==('BUTTON') && e.target.parentElement.parentElement.lastChild.style.display =='none') {
-        e.target.parentElement.parentElement.lastChild.style.display='block'
-     
-    }
-    else{
-        e.target.parentElement.parentElement.lastChild.style.display='none'
+    if (
+      e.target.tagName == "BUTTON" &&
+      e.target.parentElement.parentElement.lastChild.style.display == "none"
+    ) {
+      e.target.parentElement.parentElement.lastChild.style.display = "block";
+      e.target.textContent = "LESS";
+    } else if(  e.target.tagName == "BUTTON" &&
+    e.target.parentElement.parentElement.lastChild.style.display !="none") {
+      e.target.parentElement.parentElement.lastChild.style.display = "none";
+      e.target.textContent = "MORE";
     }
   });
 
@@ -39,7 +41,7 @@ async function solution() {
     const response = await fetch(url2);
     console.log(response);
     const data = await response.json();
-   
+
     return data.content;
   }
   function e(type, text, attributes = []) {
