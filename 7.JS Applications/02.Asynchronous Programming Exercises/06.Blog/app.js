@@ -4,6 +4,7 @@ async function attachEvents() {
   const url = "http://localhost:3030/jsonstore/blog/posts";
   const response = await fetch(url);
   const data = await response.json();
+
   document
     .getElementById("btnLoadPosts")
     .addEventListener("click", function () {
@@ -12,6 +13,7 @@ async function attachEvents() {
         posts.appendChild(option);
       }
     });
+
   document
     .getElementById("btnViewPost")
     .addEventListener("click", async function () {
@@ -25,12 +27,21 @@ async function attachEvents() {
       );
       console.log(data);
       document.getElementById("post-title").textContent = data[selected].title;
-      const li = e('li',data[selected].body)
-      document.getElementById("post-body").appendChild(li);
-     const postComments = document.getElementById("post-comments");
-      result.forEach(el => {
-          const commentLi = e('li',el.text,[`id=${el.id}`]);
-          postComments.appendChild(commentLi)
+      const li = e("li", data[selected].body);
+      const postBody = document.getElementById("post-body");
+      if (postBody.firstElementChild) {
+        postBody.firstElementChild.remove();
+      }
+      postBody.appendChild(li);
+      const postComments = document.getElementById("post-comments");
+      if (postComments.children.length != 0) {
+        for (const el of postComments.children) {
+          postComments.removeChild(el);
+        }
+      }
+      result.forEach((el) => {
+        const commentLi = e("li", el.text, [`id=${el.id}`]);
+        postComments.appendChild(commentLi);
       });
     });
 
