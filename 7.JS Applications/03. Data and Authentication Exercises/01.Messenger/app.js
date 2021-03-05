@@ -36,7 +36,7 @@ async function createNewData() {
     headers: { "Content-type": "application/json" },
     body: JSON.stringify(data),
   });
-  console.log(await response.json());
+ refreshData();
 }
 
 attachEvents();

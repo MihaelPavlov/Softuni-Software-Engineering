@@ -87,9 +87,10 @@
                 'Access-Control-Allow-Origin': '*',
                 'Content-Type': 'application/json'
             };
-            let result;
+            let result = '';
             let context;
 
+            // NOTE: the OPTIONS method results in undefined result and also it never processes plugins - keep this in mind
             if (method == 'OPTIONS') {
                 Object.assign(headers, {
                     'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
@@ -117,7 +118,7 @@
 
             res.writeHead(status, headers);
             if (context != undefined && context.util != undefined && context.util.throttle) {
-                await new Promise(r => setTimeout(r, 250 + Math.random() * 750));
+                await new Promise(r => setTimeout(r, 500 + Math.random() * 500));
             }
             res.end(result);
 
@@ -134,9 +135,9 @@
                 } else if (serviceName == 'favicon.ico') {
                     return ({ headers, result } = services['favicon'](method, tokens, query, body));
                 }
-                
+
                 const service = services[serviceName];
-                
+
                 if (service === undefined) {
                     status = 400;
                     result = composeErrorObject(400, `Service "${serviceName}" is not supported`);
@@ -1155,6 +1156,30 @@
     			name: "John10",
     			val: 1,
     			_createdOn: 1613551388793
+    		}
+    	},
+    	catches: {
+    		"07f260f4-466c-4607-9a33-f7273b24f1b4": {
+    			_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
+    			angler: "Paulo Admorim",
+    			weight: 636,
+    			species: "Atlantic Blue Marlin",
+    			location: "Vitoria, Brazil",
+    			bait: "trolled pink",
+    			"captureTime": 80,
+    			_createdOn: 1614760714812,
+    			_id: "07f260f4-466c-4607-9a33-f7273b24f1b4"
+    		},
+    		"bdabf5e9-23be-40a1-9f14-9117b6702a9d": {
+    			_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
+    			angler: "John Does",
+    			weight: 554,
+    			species: "Atlantic Blue Marlin",
+    			location: "Buenos Aires, Argentina",
+    			bait: "trolled pink",
+    			"captureTime": 120,
+    			_createdOn: 1614760782277,
+    			_id: "bdabf5e9-23be-40a1-9f14-9117b6702a9d"
     		}
     	}
     };
