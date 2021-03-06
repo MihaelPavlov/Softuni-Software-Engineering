@@ -5,7 +5,7 @@ function attachEvents() {
     .getElementsByClassName("load")[0]
     .addEventListener("click", getListOfCatches);
   document.getElementById("catches").addEventListener("click", handleClick);
- 
+
   if (token != null) {
     console.log("authenticated");
     document.getElementsByClassName("add")[0].disabled = false;
@@ -135,6 +135,7 @@ async function createCatche(e) {
   } else {
     return alert(`${response.statusText}`);
   }
+  e.target.reset();
 }
 
 async function deleteCatche(e) {
@@ -146,15 +147,15 @@ async function deleteCatche(e) {
       method: "delete",
       headers: { "X-Authorization": sessionStorage.getItem("userToken") },
     });
-    getListOfCatches();
-  }
-  else{
-    
+    if (response.ok) {
+      getListOfCatches();
+    }
+  } else {
     return alert(`you doesn't create that angler`);
   }
 }
 
-async function updateCatche(e){
+async function updateCatche(e) {
   e.preventDefault();
   if (e.target.classList.contains("update")) {
     const formData = new FormData(e.target.parentElement);
@@ -164,7 +165,7 @@ async function updateCatche(e){
     const location = formData.get("location");
     const bait = formData.get("bait");
     const captureTime = Number(formData.get("captureTime"));
-  
+
     const catche = {
       angler,
       weight,
@@ -181,7 +182,7 @@ async function updateCatche(e){
       headers: { "X-Authorization": sessionStorage.getItem("userToken") },
       body: JSON.stringify(catche),
     });
-    console.log('update');
+    console.log("update");
     getListOfCatches();
   }
 }
@@ -189,7 +190,7 @@ function handleClick(e) {
   if (e.target.classList.contains("update")) {
     updateCatche(e);
   } else if (e.target.classList.contains("delete")) {
-    const confirmed = confirm('Are u sure want to delete this book')
+    const confirmed = confirm("Are u sure want to delete this book");
     if (confirmed) {
       deleteCatche(e);
     }
