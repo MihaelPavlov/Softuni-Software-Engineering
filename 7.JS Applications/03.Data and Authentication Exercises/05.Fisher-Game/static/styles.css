@@ -139,3 +139,7 @@ hr {
     padding-right: 15px;
     padding-left: 15px;
 }
+
+#views{
+    display: none;
+}

@@ -13,6 +13,7 @@ async function onSubmit(event) {
   });
 
   if (response.ok) {
+    event.target.reset();
     const data = await response.json();
     sessionStorage.setItem("authToken", data.accessToken);
     sessionStorage.setItem("userId", data._id);
@@ -25,6 +26,10 @@ async function onSubmit(event) {
       l.style.display = "none";
     });
     showHome();
+  }
+  else{
+    const error = await response.json();
+    alert(error.message);
   }
 }
 let main;

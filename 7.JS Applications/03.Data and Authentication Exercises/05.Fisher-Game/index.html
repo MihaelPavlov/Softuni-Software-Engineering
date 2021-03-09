@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biggest Catch</title>
     <link rel="stylesheet" href="/05.Fisher-Game/static/styles.css" />
+    <script type='module' src="/05.Fisher-Game/src/app.js"></script>
+
   </head>
 
   <body>
+    
     <header>
       <h1>Biggest Catch</h1>
       <nav>
-        <a class="active">Home</a>
+        <a id='homeBtn' class="active" href ="#">Home</a>
         <div id="guest">
-          <a href="login.html">Login</a>
+          <a id='loginBtn' href="#">Login</a>
+          <a id='registerBtn' href="#">Register</a>
         </div>
       </nav>
     </header>
@@ -94,6 +98,47 @@
         </form>
       </aside>
     </main>
-    <script src="/05.Fisher-Game/app.js"></script>
+
+    <div id ='views'>
+      <div id="register">
+        <div id="exercise">
+            <div class="wrapper">
+                <div class="card-wrapper">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Register</h2>
+                            <form id='registerForm'>
+                                <label>E-mail: <input type="text" name="email"></label>
+                                <label>Password: <input type="password" name="password"></label>
+                                <label>Repeat: <input type="password" name="rePass"></label>
+                                <button>Register</button>
+                            </form>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="login">
+      <div id="exercise">
+          <div class="wrapper">
+              <div class="card-wrapper">
+                  <div class="row">
+                      <div class="col-md-12">
+                        <h2>Login</h2>
+                        <form id='loginForm'  method="post">
+                            <label>E-mail: <input type="text" name="email"></label>
+                            <label>Password: <input type="password" name="password"></label>
+                            <button>Login</button>
+                        </form>
+                          <hr>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    </div>
   </body>
 </html>

@@ -1,38 +1,142 @@
+import { e } from "./dom.js";
+import { showHome} from "./home.js";
+
+async function getLikesByMovieId(id) {
+  const response = await fetch(
+    `http://localhost:3030/data/likes?where=movieId%3D%22${id}%22&amp;distinct=_ownerId&amp;count`
+  );
+  const data = await response.json();
+  return data;
+}
+async function getOwnLikesByMovieId(id) {
+  const userId = sessionStorage.getItem("userId");
+  const response = await fetch(
+    `http://localhost:3030/data/likes?where=movieId%3D%22${id}%22%20and%20_ownerId%3D%22${userId}%22`
+  );
+  const data = await response.json();
+  return data;
+}
 async function getMovieById(id) {
   const response = await fetch("http://localhost:3030/data/movies/" + id);
   const data = await response.json();
   return data;
 }
 
-function createMovieCard(movie) {
+async function onEdit(e,movieId) {
+  e.preventDefault();
+ 
+    const response = await fetch(
+      "http://localhost:3030/data/movies/" + movieId,
+      {
+        method: "put",
+        headers: {
+          "Content-Type": "application/json",
+          "X-Authorization": sessionStorage.getItem("authToken"),
+        },
+        body:JSON.stringify(data)
+      }
+    )
+    //todo edit
+}
+async function onDelete(e, movieId) {
+  e.preventDefault();
+  const confirmed = confirm("Are you sure you want to delete this movie?");
+  if (confirmed) {
+    const response = await fetch(
+      "http://localhost:3030/data/movies/" + movieId,
+      {
+        method: "delete",
+        headers: {
+          "X-Authorization": sessionStorage.getItem("authToken"),
+        }
+      }
+    );
+    if (response.ok) {
+      alert('Movie deleted');
+      showHome();
+    }
+    else{
+      const er = await response.json();
+      alert(er.message)
+    }
+  }
+}
+function createMovieCard(movie, likes, ownLike) {
+  const controls = e(
+    "div",
+    { className: "col-md-4 text-center" },
+    e("h3", { className: "my-3" }, "Movie Description"),
+    e("p", {}, movie.description)
+  );
+
+  const userId = sessionStorage.getItem("userId");
+  if (userId != null) {
+    if (userId == movie._ownerId) {
+      controls.appendChild(
+        e(
+          "a",
+          {
+            className: "btn btn-danger",
+            href: "#",
+            onclick: (e) => onDelete(e, movie._id),
+          },
+          "Delete"
+        )
+      );
+      controls.appendChild(
+        e("a", { className: "btn btn-warning", href: "#" , onclick: (e) => onEdit(e, movie._id),}, "Edit")
+      );
+    } else if (ownLike.length == 0) {
+      controls.appendChild(
+        e(
+          "a",
+          { className: "btn btn-primary", href: "#", onclick: likeMovie },
+          "Like"
+        )
+      );
+    }
+  }
+  const likeSpan = e(
+    "span",
+    { className: "enrolled-span" },
+    likes.length + ` like` + (likes == 1 ? "" : "s")
+  );
+  controls.appendChild(likeSpan);
+
   const element = document.createElement("div");
   element.className = "container";
-  element.innerHTML = `
-  <div class="container">
-  <div class="row bg-light text-dark">
-    <h1>Movie title: ${movie.title}</h1>
+  element.appendChild(
+    e(
+      "div",
+      { className: "row bg-light text-dark" },
+      e("h1", {}, `Movie title: ${movie.title}`),
+      e(
+        "div",
+        { className: "col-md-8" },
+        e("img", { className: "img-thumbnail", src: movie.img })
+      ),
+      controls
+    )
+  );
 
-    <div class="col-md-8">
-      <img
-        class="img-thumbnail"
-        src="${movie.img}"
-        alt="Movie"
-      />
-    </div>
-    <div class="col-md-4 text-center">
-      <h3 class="my-3">Movie Description</h3>
-      <p>
-       ${movie.description}
-      </p>
-      <a class="btn btn-danger" href="#">Delete</a>
-      <a class="btn btn-warning" href="#">Edit</a>
-      <a class="btn btn-primary" href="#">Like</a>
-      <span class="enrolled-span">Liked 1</span>
-    </div>
-  </div>
-</div>
-  `;
   return element;
+
+  async function likeMovie(event) {
+    const response = await fetch("http://localhost:3030/data/likes", {
+      method: "post",
+      headers: {
+        "Content-Type": "application/json",
+        "X-Authorization": sessionStorage.getItem("authToken"),
+      },
+      body: JSON.stringify({ movieId: movie._id }),
+    });
+
+    if (response.ok) {
+      event.target.remove();
+      likes.length++;
+      likeSpan.textContent = likes.length + ` like` + (likes == 1 ? "" : "s");
+    }
+  }
 }
 
 let main;
@@ -45,7 +149,11 @@ export async function showDetails(id) {
   section.innerHTML = "";
   main.innerHTML = "";
   main.appendChild(section);
-  const movie = await getMovieById(id);
-  const card = createMovieCard(movie);
+  const [movie, likes, ownLike] = await Promise.all([
+    getMovieById(id),
+    getLikesByMovieId(id),
+    getOwnLikesByMovieId(id),
+  ]);
+  const card = createMovieCard(movie, likes, ownLike);
   section.appendChild(card);
 }
