@@ -1,5 +1,6 @@
 import { e } from "./dom.js";
 import { showHome} from "./home.js";
+import { showEdit } from './edit.js';
 
 async function getLikesByMovieId(id) {
   const response = await fetch(
@@ -22,22 +23,6 @@ async function getMovieById(id) {
   return data;
 }
 
-async function onEdit(e,movieId) {
-  e.preventDefault();
- 
-    const response = await fetch(
-      "http://localhost:3030/data/movies/" + movieId,
-      {
-        method: "put",
-        headers: {
-          "Content-Type": "application/json",
-          "X-Authorization": sessionStorage.getItem("authToken"),
-        },
-        body:JSON.stringify(data)
-      }
-    )
-    //todo edit
-}
 async function onDelete(e, movieId) {
   e.preventDefault();
   const confirmed = confirm("Are you sure you want to delete this movie?");
@@ -84,7 +69,7 @@ function createMovieCard(movie, likes, ownLike) {
         )
       );
       controls.appendChild(
-        e("a", { className: "btn btn-warning", href: "#" , onclick: (e) => onEdit(e, movie._id),}, "Edit")
+        e("a", { className: "btn btn-warning", href: "#" , onClick: () => showEdit(movie._id) }, "Edit")
       );
     } else if (ownLike.length == 0) {
       controls.appendChild(

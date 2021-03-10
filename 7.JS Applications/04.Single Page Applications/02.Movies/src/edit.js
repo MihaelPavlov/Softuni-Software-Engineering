@@ -1,44 +1,57 @@
+import { showDetails } from "./details.js";
+
+async function getMovieById(id) {
+    const response = await fetch('http://localhost:3030/data/movies/' + id);
+    const data = await response.json();
+
+    return data;
+}
+
+async function onSubmit(event) {
+    event.preventDefault();
+
+    const formData = new FormData(event.target);
+    const movieId = formData.get('id');
+    const movie = {
+        title: formData.get('title'),
+        description: formData.get('description'),
+        img: formData.get('imageUrl')
+    }
+
+    const response = await fetch('http://localhost:3030/data/movies/' + movieId, {
+        method: 'put',
+        headers: {
+            'Content-type': 'application/json',
+            'X-Authorization': sessionStorage.getItem('authToken')
+        },
+        body: JSON.stringify(movie)
+    });
+
+    if (response.ok) {
+        showDetails(movieId);
+    } else {
+        const error = await response.json();
+        alert(error.message);
+    }
+}
+
 let main;
 let section;
 
-async function onSubmit(event) {
-  event.preventDefault();
-  const formData = new FormData(event.target);
+export function setupEdit(mainTarget, sectionTarget) {
+    main = mainTarget;
+    section = sectionTarget;
 
-  const movie = {
-    title: formData.get("title"),
-    description: formData.get("description"),
-    img: formData.get("imageUrl"),
-  };
-  if (movie.title == "" || movie.description == "" || movie.img == "") {
-    return alert("All fields are reuqired!");
-  }
-
-  const response = await fetch("http://localhost:3030/data/movies", {
-    method: "post",
-    headers: {
-      "Content-Type": "application/json",
-      "X-Authorization": sessionStorage.getItem("authToken"),
-    },
-    body: JSON.stringify(movie),
-  });
-
-  if (response.ok) {
-    const movie = await response.json();
-    showDetails(movie._id);
-  } else {
-    const er = await response.json();
-    alert(er.message);
-  }
+    section.querySelector('form').addEventListener('submit', onSubmit);
 }
-export function setupEdit(mainTarget,sectionTarget) {
-  main=mainTarget;
-  section=sectionTarget;
 
-  const form = section.querySelector("form");
-  form.addEventListener("submit", onSubmit);
-}
-export async function showEdit() {
-  main.innerHTML='';
-  main.appendChild(section);
+export async function showEdit(id) {
+    main.innerHTML = '';
+    main.appendChild(section);
+
+    const movie = await getMovieById(id);
+    section.querySelector('[name="id"]').value = id;
+    section.querySelector('[name="title"]').value = movie.title;
+    section.querySelector('[name="description"]').value = movie.description;
+    section.querySelector('[name="imageUrl"]').value = movie.img;
 }
