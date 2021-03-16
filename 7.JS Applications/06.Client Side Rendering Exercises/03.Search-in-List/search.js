@@ -19,6 +19,7 @@ function search(input) {
    let counter =0;
 
    Array.from(container.firstElementChild.children).forEach(el => {
+      console.log(el);
       if (el.classList.contains('active')) {
          el.classList.remove('active');
       }
