@@ -2,6 +2,7 @@ import page from "../node_modules/page/page.mjs";
 
 import { render } from "../node_modules/lit-html/lit-html.js";
 
+
 import { dashboardPage } from "./views/dashboard.js";
 import { detailsPage } from "./views/details.js";
 import { createPage } from "./views/create.js";
@@ -10,25 +11,41 @@ import { registerPage } from "./views/register.js";
 import { loginPage } from "./views/login.js";
 import { myPage } from "./views/myFurniture.js";
 
-import * as api from "./api/data.js";
-
-window.api = api;
+import {logout}  from "./api/data.js";
 
 const main = document.querySelector(".container");
 
-page("/", renderMiddleware, dashboardPage);
-page("/my-furniture", renderMiddleware, myPage);
-page("/details/:id", renderMiddleware, detailsPage);
-page("/create", renderMiddleware, createPage);
-page("/edit/:id", renderMiddleware, editPage);
-page("/register", renderMiddleware, registerPage);
-page("/login", renderMiddleware, loginPage);
+page("/", decorateContext, dashboardPage);
+page("/my-furniture", decorateContext, myPage);
+page("/details/:id", decorateContext, detailsPage);
+page("/create", decorateContext, createPage);
+page("/edit/:id", decorateContext, editPage);
+page("/register", decorateContext, registerPage);
+page("/login", decorateContext, loginPage);
 
+//start Application
+document.getElementById("logoutBtn").addEventListener("click", async () => {
+  await logout();
+  setUserNav();
+  page.redirect("/");
+});
+setUserNav();
 page.start();
 
-// ctx->context come from page 
-function renderMiddleware(ctx, next) {
-  console.log(`this is the renderMiddleware context -> ${ctx} next ->${next}` );
-  ctx.render = content => render(content, main);
+// ctx->context come from page
+function decorateContext(ctx, next) {
+  console.log(`this is the renderMiddleware context -> ${ctx} next ->${next}`);
+  ctx.render = (content) => render(content, main);
+  ctx.setUserNav = setUserNav;
   next();
+}
+function setUserNav(ctx, next) {
+  const userId = sessionStorage.getItem("userId");
+  if (userId != null) {
+    document.getElementById("user").style.display = "inline-block";
+    document.getElementById("guest").style.display = "none";
+  } else {
+    document.getElementById("user").style.display = "none";
+    document.getElementById("guest").style.display = "inline-block";
+  }
 }
