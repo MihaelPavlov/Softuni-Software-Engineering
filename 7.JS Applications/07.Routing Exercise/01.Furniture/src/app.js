@@ -1,5 +1,7 @@
 import page from "../node_modules/page/page.mjs";
 
+import { render } from "../node_modules/lit-html/lit-html.js";
+
 import { dashboardPage } from "./views/dashboard.js";
 import { detailsPage } from "./views/details.js";
 import { createPage } from "./views/create.js";
@@ -11,12 +13,22 @@ import { myPage } from "./views/myFurniture.js";
 import * as api from "./api/data.js";
 
 window.api = api;
-page("/", dashboardPage);
-page("/my-furniture", myPage);
-page("/details/:id", detailsPage);
-page("/create", createPage);
-page("/edit/:id", editPage);
-page("/register", registerPage);
-page("/login", loginPage);
+
+const main = document.querySelector(".container");
+
+page("/", renderMiddleware, dashboardPage);
+page("/my-furniture", renderMiddleware, myPage);
+page("/details/:id", renderMiddleware, detailsPage);
+page("/create", renderMiddleware, createPage);
+page("/edit/:id", renderMiddleware, editPage);
+page("/register", renderMiddleware, registerPage);
+page("/login", renderMiddleware, loginPage);
 
 page.start();
+
+// ctx->context come from page 
+function renderMiddleware(ctx, next) {
+  console.log(`this is the renderMiddleware context -> ${ctx} next ->${next}` );
+  ctx.render = content => render(content, main);
+  next();
+}
