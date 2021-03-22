@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./static/site.css">
-    <link rel="stylesheet" href="./static/layout.css">
-    <link rel="stylesheet" href="./static/modal.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/site.css" />
+    <link rel="stylesheet" href="./static/layout.css" />
+    <link rel="stylesheet" href="./static/modal.css" />
+    <script type="module" src="./src/app.js"></script>
     <title>Team Manager</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="content">
-        <header id="titlebar" class="layout">
-            <a href="#" class="site-logo">Team Manager</a>
-            <nav>
-                <a href="#" class="action">Browse Teams</a>
-                <a href="#" class="action">Login</a>
-                <a href="#" class="action">Register</a>
-                <a href="#" class="action">My Teams</a>
-                <a href="#" class="action">Logout</a>
-            </nav>
-        </header>
-        <main>
+      <header id="titlebar" class="layout">
+        <a href="/" class="site-logo">Team Manager</a>
+        <nav>
+          <a href="/browse" class="action">Browse Teams</a>
+          <a href="/login" class="action guest">Login</a>
+          <a href="/register" class="action guest" >Register</a>
 
-            <section id="home">
+          <a href="/myTeams" class="action user">My Teams</a>
+          <a id="logoutBtn" href="javascript:void(0)" class="action user">Logout</a>
+        </nav>
+      </header>
+      <main class="container">
+        <!-- <section id="home">
                 <article class="hero layout">
                     <img src="./assets/team.png" class="left-col pad-med">
                     <div class="pad-med tm-hero-col">
@@ -203,19 +203,15 @@
                         </ul>
                     </div>
                 </article>
-            </section>
-
-        </main>
-        <footer id="footer">
-            SoftUni &copy; 2014-2021
-        </footer>
+            </section> -->
+      </main>
+      <footer id="footer">SoftUni &copy; 2014-2021</footer>
     </div>
-    <div class="overlay">
+    <!-- <div class="overlay">
         <div class="modal">
             <p>Overlay message</p>
             <a href="#" class="action">Action</a>
         </div>
-    </div>
-</body>
-
+    </div> -->
+  </body>
 </html>
