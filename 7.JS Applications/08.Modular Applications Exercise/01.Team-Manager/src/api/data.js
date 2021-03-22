@@ -8,14 +8,41 @@ export const logout = api.logout;
 
 //implement application - specific request
 
-
 export async function getTeams() {
-  return await api.get(host +'/data/teams');
-}
-export async function getAllMembers() {
-  return await api.get(host +'/data/members?where=status%3D%22member%22');
+  const teams = await api.get(host + "/data/teams");
+  const members = await getMembers(teams.map(t=>t._id))
+  return teams;
 }
 
 export async function getTeamById(id) {
-  return await api.get(host +'/data/teams/'+id);
+  return await api.get(host + "/data/teams/" + id);
+}
+export async function createTeam(team) {
+  return await api.post(host + "/data/teams", team);
+}
+export async function editTeam(id, team) {
+  return await api.put(host + "/data/teams/" + id, team);
+}
+export async function deleteTeam(id) {
+  return await api.del(host + "/data/teams/" + id);
+}
+
+export async function requestToJoin(teamId) {
+  const body = {teamId};
+  return await api.post(host + "/data/members",body);
+}
+export async function getRequestsByTeamId(teamId) {
+  return await api.get(host + `/data/members?where=teamId%3D%22${teamId}%22&load=user%3D_ownerId%3Ausers`);
+
+}
+export async function getMembers(teamIds) {
+  const query = encodeURIComponent(
+    `teamId IN ("${teamIds.join('", "')}") AND status="member"`
+  );
+
+  return await api.get(host + `/data/members?where=${query}`);
+}
+
+export async function cancelMembership(requestId) {
+  return await api.del(host+'/data/members/'+requestId);
 }

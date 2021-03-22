@@ -7,7 +7,9 @@ import { loginPage } from "./views/login.js";
 import {registerPage } from "./views/register.js";
 import {browsePage } from "./views/browse.js";
 import {myTeamsPage } from "./views/myTeams.js";
-import {teamHomePage } from "./views/teamHome.js";
+import {detailsPage } from "./views/details.js";
+import { createPage } from "./views/create.js";
+import { editPage } from "./views/edit.js";
 
 
 import {logout}  from "./api/data.js";
@@ -16,11 +18,15 @@ const main = document.querySelector(".container");
 
 
 page("/",decorateContext,  homePage);
+page("/index.html",decorateContext,  homePage);
+page("/browse",decorateContext,  browsePage);
 page("/login",decorateContext,  loginPage);
 page("/register",decorateContext,  registerPage);
-page("/browse",decorateContext,  browsePage);
 page("/myTeams",decorateContext,  myTeamsPage);
-page("/teamHome",decorateContext,  teamHomePage);
+page("/details/:id",decorateContext,  detailsPage);
+page("/create",decorateContext,  createPage);
+page("/edit/:id",decorateContext,  editPage);
+
 
 document.getElementById("logoutBtn").addEventListener("click", async () => {
   await logout();

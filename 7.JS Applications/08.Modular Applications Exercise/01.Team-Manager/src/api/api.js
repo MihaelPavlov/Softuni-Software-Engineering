@@ -22,7 +22,7 @@ async function request(url, options) {
 
 
   } catch (err) {
-    alert(err.message);
+    //alert(err.message);
     throw err;
   }
 }
@@ -61,25 +61,25 @@ export async function login(email, password) {
     email,
     password,
   });
-  console.log(result.email);
-  sessionStorage.setItem("email", result.email);
+  sessionStorage.setItem("username", result.username);
   sessionStorage.setItem("authToken", result.accessToken);
   sessionStorage.setItem("userId", result._id);
   return result;
 }
-export async function register(email, password) {
+export async function register(email, username,password) {
   const result = await post(settings.host + "/users/register", {
     email,
+    username,
     password,
   });
-  sessionStorage.setItem("email", result.email);
+  sessionStorage.setItem("username", result.username);
   sessionStorage.setItem("authToken", result.accessToken);
   sessionStorage.setItem("userId", result._id);
   return result;
 }
 export async function logout() {
   const result = await get(settings.host + "/users/logout");
-  sessionStorage.removeItem("email");
+  sessionStorage.removeItem("username");
   sessionStorage.removeItem("authToken");
   sessionStorage.removeItem("userId");
   return result;

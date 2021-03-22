@@ -14,7 +14,7 @@ const myTeamsTemplate = () => html`
         <p><a href="#">Browse all teams</a> to join one, or use the button bellow to cerate your own
             team.</p>
     </div>
-    <div class=""><a href="#" class="action cta">Create Team</a></div>
+    <div class=""><a href="/create" class="action cta">Create Team</a></div>
 </article>
 
 <article class="layout">
@@ -23,7 +23,7 @@ const myTeamsTemplate = () => html`
         <h2>Team Rocket</h2>
         <p>Gotta catch 'em all!</p>
         <span class="details">3 Members</span>
-        <div><a href="#" class="action">See details</a></div>
+        <div><a href="/details/teamId" class="action">See details</a></div>
     </div>
 </article>
 

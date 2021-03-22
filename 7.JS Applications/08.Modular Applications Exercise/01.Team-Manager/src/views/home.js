@@ -1,5 +1,5 @@
 import { html } from "../../node_modules/lit-html/lit-html.js";
-const homeTemplate = () => html`
+const homeTemplate = (isUser) => html`
   <section id="home">
     <article class="hero layout">
       <img src="./assets/team.png" class="left-col pad-med" />
@@ -10,7 +10,9 @@ const homeTemplate = () => html`
           Looking for a team to join? Browse our communities and find
           like-minded people!
         </p>
-        ${isLogin()}
+        ${isUser?
+           html`<a href="/browse" class="action cta">Browse Teams</a>` :
+           html`<a href="/login" class="action cta">Sign Up Now</a> ` }
       </div>
     </article>
   </section>
@@ -20,14 +22,8 @@ const homeTemplate = () => html`
 
 export async function homePage(ctx) {
   console.log("home page", ctx);
-  ctx.render(homeTemplate());
-}
-
-function isLogin() {
   const userId = sessionStorage.getItem('userId');
-  if (userId != null) {
-    return html`<a href="/browse" class="action cta">Browse Teams</a> `;
-  } else {
-    return html`<a href="/login" class="action cta">Sign Up Now</a> `;
-  }
+
+  ctx.render(homeTemplate(userId));
+ 
 }
