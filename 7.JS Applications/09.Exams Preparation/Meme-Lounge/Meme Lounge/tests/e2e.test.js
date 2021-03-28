@@ -543,7 +543,7 @@ describe('E2E tests', function () {
 
     });
 
-    describe.only('User Profile Page [ 10 Points ]', async () => {
+    describe('User Profile Page [ 10 Points ]', async () => {
         const email = 'merry@mail.bg';
         const username = 'Merry';
         const password = '123456';
@@ -571,7 +571,7 @@ describe('E2E tests', function () {
 
         });
 
-        it('check profile page information - with 0 memes [ 5 Points ]', async () => {
+        it.only('check profile page information - with 0 memes [ 5 Points ]', async () => {
             await page.route('**' + endpoints.profile, route => route.fulfill(json([])));
             await page.waitForTimeout(300);
             await page.click('text="My Profile"');

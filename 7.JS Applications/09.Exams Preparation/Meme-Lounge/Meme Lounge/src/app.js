@@ -10,12 +10,10 @@ import { allMemesPage } from "./views/allMeme.js";
 import { createPage } from "./views/create.js";
 import { detailsPage } from "./views/details.js";
 import { editPage } from "./views/edit.js";
-import { myProfilePage } from "./views/my-profile.js";
-
+import { myProfilePage } from "./views/myProfile.js";
 
 import {logout}  from "./api/data.js";
 
-const main = document.querySelector("main");
 
 page("/", decorateContext, homePage);
 page("/home", decorateContext, homePage);
@@ -25,7 +23,9 @@ page("/allMemes", decorateContext, allMemesPage);
 page("/create", decorateContext, createPage);
 page("/details/:id", decorateContext, detailsPage);
 page("/edit/:id", decorateContext, editPage);
-page("/my-profile", decorateContext, myProfilePage);
+page("/myProfile", decorateContext, myProfilePage);
+
+const main = document.querySelector("main");
 
 
 //start Application
@@ -45,8 +45,8 @@ function decorateContext(ctx, next) {
   next();
 }
 function setUserNav(ctx, next) {
-  const userId = sessionStorage.getItem("authToken");
-  if (userId != null) {
+  const token = sessionStorage.getItem("authToken");
+  if (token != null) {
     const email = sessionStorage.getItem('email')
     document.getElementsByClassName('welcome')[0].textContent=`Welcome, ${email}`
     document.getElementsByClassName("user")[0].style.display = "";
