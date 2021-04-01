@@ -28,12 +28,11 @@ const memeTemplate = (meme) => html`
 `;
 export async function myProfilePage(ctx) {
   console.log("my page", ctx);
-  const userId = sessionStorage.getItem('userId');
   const username = sessionStorage.getItem('username');
   const email = sessionStorage.getItem('email');
   const gender = sessionStorage.getItem('gender');
 
-  const myMemes= await getMyMemes(userId)
+  const myMemes= await getMyMemes()
 
   ctx.render(myProfileTemplate(myMemes,username,email, gender=='female'?'female':'male'))
 }

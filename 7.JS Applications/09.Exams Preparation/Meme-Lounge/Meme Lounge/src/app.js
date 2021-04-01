@@ -10,7 +10,7 @@ import { allMemesPage } from "./views/allMeme.js";
 import { createPage } from "./views/create.js";
 import { detailsPage } from "./views/details.js";
 import { editPage } from "./views/edit.js";
-import { myProfilePage } from "./views/myProfile.js";
+import { myProfilePage } from "./views/profile.js";
 
 import {logout}  from "./api/data.js";
 
