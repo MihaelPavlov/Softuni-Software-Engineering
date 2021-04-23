@@ -5,7 +5,7 @@
 <hr>
 <table border="0" width="100%" cellspacing="1" cellpadding="3" align="center"> 
   
-                  <!-- JS Application-->
+            
 <tbody>
 <tr>
 <td align="center" width="33%">JS Application<br>February 2021<br> 11/02/2021 - 21/03/2021 </td>
