@@ -3,7 +3,16 @@
 
 
 <hr>
-<table border="0" width="100%" cellspacing="1" cellpadding="3" align="center">           
+<table border="0" width="100%" cellspacing="1" cellpadding="3" align="center"> 
+  
+                  <!-- JS Application-->
+<tbody>
+<tr>
+<td align="center" width="33%">JS Application<br>February 2021<br> 11/02/2021 - 21/03/2021 </td>
+<td align="center" width="33%"> Grade: 6.00 </td >
+<td align="center" width="33%"><p><a title="JS Application" href="https://softuni.bg/certificates/details/102499/08b1b3a2" target="_blank">Certificate</a></p></td -->   
+</tr>
+</tbody>
               <!-- JS Advanced-->
 <tbody>
 <tr>
